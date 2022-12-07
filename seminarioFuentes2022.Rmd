@@ -1,0 +1,30 @@
+---
+title: "titulo"
+author: "Rocío"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introducción
+### Objetivos
+## Métodos
+### Carga de paquetes
+```{r, warning=FALSE, message=FALSE}
+library(readr)
+library (dplyr)
+```
+### Carga de datos
+```{r}
+registro_regional_de_sida <- read_delim("DATA/registro-regional-de-sida.csv",
+                                        delim = ";", escape_double = FALSE, trim_ws = TRUE)
+```
+
+
