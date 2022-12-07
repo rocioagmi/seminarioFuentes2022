@@ -1,0 +1,1436 @@
+Provincia residencia;País de nacimiento (si no es España);Edad;Sexo;VIH;Código Grupo de riesgo asignado;grupo riesgo;Estado clínico de la infección por VIH;Test positivo confirmado frente a;Conducta sexual
+LEON;ESPAÑA;18.0;H;2009;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SORIA;ESPAÑA;44.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;39.0;M;2009;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;43.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;RUMANA;38.0;M;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;40.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SEGOVIA;REPUBLICA DOMINICANA;37.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH2;Homosex
+VALLADOLID;ESPAÑA;47.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+VALLADOLID;CAMERUN;45.0;M;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;30.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;CUBA;27.0;H;2009;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;44.0;M;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+BURGOS;ARGENTINA;64.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;ECUADOR;36.0;M;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;47.0;H;2009;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;28.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;34.0;H;2009;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+BURGOS;ESPAÑA;48.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SORIA;ESPAÑA;35.0;H;2009;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SEGOVIA;ESPAÑA;29.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ARMENIA;27.0;H;2009;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+PALENCIA;ESPAÑA;44.0;H;2009;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+PALENCIA;ESPAÑA;45.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+PALENCIA;HOLANDA;39.0;H;2009;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+PALENCIA;ESPAÑA;45.0;H;2009;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;35.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;66.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;39.0;H;2009;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;33.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ECUADOR;28.0;H;2009;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;50.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;27.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;40.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;36.0;M;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;63.0;H;2009;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+SALAMANCA;ESPAÑA;45.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;MEXICO;27.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;50.0;H;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;NC;32.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;50.0;H;2009;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;38.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;39.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ECUADOR;37.0;M;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;50.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;57.0;H;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;38.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+ZAMORA;ESPAÑA;41.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+ZAMORA;ESPAÑA;52.0;H;2009;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+SALAMANCA;COLOMBIA;32.0;M;2010;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+AVILA;ESPAÑA;38.0;M;2010;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;32.0;H;2010;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;30.0;H;2010;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;31.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+VALLADOLID;ECUADOR;37.0;H;2010;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;PORTUGAL;41.0;H;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;40.0;M;2010;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ETIOPIA;42.0;H;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;48.0;H;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;31.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;REP. MALI;38.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;47.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;41.0;H;2010;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;19.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;21.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;BRASIL;30.0;M;2010;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SALAMANCA;ESPAÑA;20.0;H;2010;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;41.0;H;2010;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+VALLADOLID;ESPAÑA;31.0;H;2010;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;41.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;55.0;H;2010;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;COLOMBIA;41.0;M;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;REPUBLICA DOMINICANA;38.0;H;2010;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;30.0;H;2010;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;36.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;46.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;BULGARIA;41.0;H;2010;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SALAMANCA;ESPAÑA;46.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;ESPAÑA;53.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;0.0;H;2010;60.0;Hijo de madre a riesgo;Asintom;VIH1;Heterosex
+SALAMANCA;NIGERIA;37.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;VENEZUELA;20.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;GAMBIA;21.0;H;2011;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+AVILA;ESPAÑA;62.0;M;2010;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;27.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+LEON;REPUBLICA DOMINICANA;40.0;H;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;PORTUGAL;29.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;23.0;H;2009;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;57.0;M;2010;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;62.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;BRASIL;44.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;41.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH2;Desconocido
+VALLADOLID;ESPAÑA;43.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;43.0;H;2010;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+BURGOS;ESPAÑA;49.0;M;2010;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;44.0;M;2011;72.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;57.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;37.0;H;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;23.0;H;2011;77.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+SORIA;ESPAÑA;24.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;GUINEA;51.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;59.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;61.0;H;2011;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;35.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;25.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;37.0;H;2011;71.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+AVILA;ESPAÑA;22.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+SALAMANCA;PAISES BAJOS;31.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;53.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+VALLADOLID;ESPAÑA;44.0;H;2011;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+VALLADOLID;REPUBLICA DOMINICANA;33.0;M;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;FRANCIA;54.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;31.0;H;2011;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;CUBA;27.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+BURGOS;ESPAÑA;41.0;H;2011;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;52.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;30.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;ESPAÑA;52.0;M;2012;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;33.0;H;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;47.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;ESPAÑA;34.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;31.0;M;2011;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;BULGARIA;22.0;H;2011;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;45.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;28.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;33.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;REPUBLICA DOMINICANA;34.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;33.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;BOLIVIA;35.0;H;2012;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;28.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;41.0;H;2011;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;40.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;37.0;H;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;RUMANA;25.0;H;2009;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;GUINEA;31.0;M;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;28.0;M;2012;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SEGOVIA;ESPAÑA;37.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;39.0;H;2012;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;Venezuela;37.0;H;2012;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+AVILA;ESPAÑA;33.0;M;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;SUIZA;38.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ALEMANIA;36.0;H;2012;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+SEGOVIA;ESPAÑA;23.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;58.0;M;2012;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;25.0;H;2012;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+SALAMANCA;ESPAÑA;48.0;H;2012;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;61.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;26.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;57.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;37.0;H;2012;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;38.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;16.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;GHANA;39.0;H;2012;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+AVILA;ESPAÑA;68.0;H;2012;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;28.0;H;2013;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;42.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;33.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;39.0;M;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;RUMANA;33.0;M;2012;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;61.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;27.0;H;2013;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SORIA;CAMERUN;40.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;33.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;50.0;H;2012;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;MARRUECOS;40.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;ESPAÑA;54.0;H;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ECUADOR;36.0;H;2013;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;18.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;54.0;M;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;49.0;H;2012;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;31.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;PARAGUAY;32.0;H;2013;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;53.0;H;2012;80.0;Grupo de riesgo desconocido;SIDA;VIH2;Desconocido
+VALLADOLID;RUMANA;33.0;H;2013;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+VALLADOLID;ESPAÑA;24.0;H;2012;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+PALENCIA;PARAGUAY;23.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;39.0;H;2013;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+BURGOS;ESPAÑA;45.0;H;2013;75.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+VALLADOLID;ESPAÑA;52.0;H;2013;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+LEON;PORTUGAL;51.0;H;2013;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;26.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;76.0;H;2013;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;23.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;47.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+ZAMORA;REPUBLICA DOMINICANA;46.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;52.0;H;2013;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;56.0;M;2013;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;31.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;BRASIL;33.0;M;2013;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;49.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;44.0;M;2013;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;22.0;H;2013;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+ZAMORA;ESPAÑA;48.0;H;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;18.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;44.0;H;2014;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;GUINEA ECUATORIAL;63.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SALAMANCA;ESPAÑA;67.0;M;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;19.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+SORIA;ECUADOR;30.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2013;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ECUADOR;31.0;H;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;44.0;H;2014;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;BRASIL;45.0;M;2014;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;36.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;27.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;32.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+PALENCIA;ESPAÑA;57.0;M;2014;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;61.0;H;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;GHANA;50.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;53.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;22.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;51.0;H;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;46.0;H;2014;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;32.0;H;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;41.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;40.0;H;2014;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+SALAMANCA;ESPAÑA;59.0;H;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;39.0;M;2014;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+VALLADOLID;COSTA DE MARFIL;43.0;M;2014;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;73.0;H;2014;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+PALENCIA;ESPAÑA;42.0;H;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;64.0;M;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;54.0;H;2014;30.0;Personas que se inyectan drogas / Varones homo/bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;43.0;H;2012;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;32.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;MALI;41.0;H;2014;71.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;35.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;50.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH12;Homosex
+BURGOS;ESPAÑA;38.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;39.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;50.0;H;2014;20.0;Personas que se inyectan drogas;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;44.0;H;2014;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SORIA;ESPAÑA;27.0;H;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2012;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SORIA;ESPAÑA;55.0;H;2013;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;41.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;36.0;H;2014;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;45.0;H;2012;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;59.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+AVILA;ESPAÑA;41.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;62.0;H;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;RUMANA;33.0;M;2014;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;37.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;33.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;NIGERIA;43.0;H;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;22.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;43.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;51.0;H;2011;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2011;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;30.0;M;2011;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+PALENCIA;ESPAÑA;36.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+SORIA;ESPAÑA;57.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;PORTUGAL;28.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;45.0;H;2014;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;27.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;50.0;H;2015;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;45.0;H;2014;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+VALLADOLID;ESPAÑA;47.0;H;2014;30.0;Personas que se inyectan drogas / Varones homo/bisexuales;Asintom;VIH1;Homosex
+LEON;CAMERUN;35.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;BRASIL;36.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;64.0;H;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;48.0;H;2015;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+BURGOS;ESPAÑA;33.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;26.0;H;2015;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;60.0;H;2015;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ECUADOR;34.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;MEXICO;22.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;BRASIL;36.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;REPUBLICA DOMINICANA;26.0;M;2015;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;51.0;H;2015;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;28.0;M;2015;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SEGOVIA;ESPAÑA;31.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;55.0;H;2009;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+SORIA;ESPAÑA;31.0;H;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;28.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;PERU;24.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;51.0;H;2015;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;34.0;H;2014;80.0;Grupo de riesgo desconocido;SIDA;VIH12;Desconocido
+AVILA;ESPAÑA;34.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;53.0;H;2015;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;REPUBLICA DE BENIN;22.0;H;2015;76.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;COLOMBIA;30.0;M;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;33.0;M;2013;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;36.0;H;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;BULGARIA;43.0;M;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;40.0;H;2016;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;24.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;MARRUECOS;65.0;M;2016;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;BRASIL;23.0;H;2016;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+AVILA;ESPAÑA;53.0;H;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;64.0;H;2016;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;41.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;REPUBLICA DOMINICANA;15.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;52.0;M;2016;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;53.0;H;2016;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;34.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;46.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;32.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;BOLIVIA;20.0;H;2016;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;67.0;M;2016;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SORIA;ESPAÑA;23.0;M;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;42.0;H;2016;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;51.0;H;2016;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;45.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;30.0;M;2016;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;69.0;M;2015;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;40.0;M;2016;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;44.0;M;2017;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+VALLADOLID;VENEZUELA;46.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;45.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;BRASIL;43.0;M;2012;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+AVILA;ESPAÑA;37.0;M;2016;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;36.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;46.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;25.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;COLOMBIA;73.0;M;2017;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;RUMANA;28.0;H;2017;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;BRASIL;29.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;GUINEA ECUATORIAL;27.0;M;2017;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;31.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;CHINA;24.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ARGENTINA;42.0;M;2017;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;42.0;H;2012;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+LEON;ESPAÑA;38.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;50.0;H;2017;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;38.0;H;2016;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;36.0;H;2017;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+BURGOS;ESPAÑA;41.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+PALENCIA;ESPAÑA;58.0;H;2017;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;46.0;H;2016;80.0;Grupo de riesgo desconocido;SIDA;VIH12;Desconocido
+VALLADOLID;COLOMBIA;24.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;24.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;ESPAÑA;62.0;H;2017;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;28.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;49.0;H;2016;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+AVILA;ESPAÑA;31.0;H;2013;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;UCRANIA;37.0;H;2017;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2017;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+SALAMANCA;ESPAÑA;70.0;M;2017;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;27.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;ESPAÑA;50.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;VENEZUELA;27.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;35.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;NICARAGUA;28.0;H;2014;77.0;Relaciones Heterosexuales;Asintom;NC;Heterosex
+LEON;ESPAÑA;31.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;VENEZUELA;50.0;M;2017;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;26.0;H;2017;70.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+BURGOS;ECUADOR;40.0;H;2017;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+PALENCIA;ESPAÑA;44.0;H;2018;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;60.0;H;2017;74.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+VALLADOLID;ESPAÑA;55.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;SUIZA;48.0;H;2018;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;40.0;H;2010;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;33.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;29.0;M;2018;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;BRASIL;33.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;48.0;H;2018;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;36.0;H;2018;20.0;Personas que se inyectan drogas;Asintom;VIH12;Heterosex
+BURGOS;JAMAICA;42.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;VENEZUELA;35.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;49.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;35.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;40.0;M;2018;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;27.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;53.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;28.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;35.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;BRASIL;26.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+AVILA;ESPAÑA;47.0;H;2018;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;32.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;64.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;COLOMBIA;30.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;30.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;51.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;38.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;60.0;M;2018;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;52.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;29.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;33.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;22.0;H;2018;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;GHANA;48.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;REPUBLICA DOMINICANA;22.0;M;2018;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;BOLIVIA;34.0;M;2018;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;62.0;H;2018;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SALAMANCA;ESPAÑA;25.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;32.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;35.0;H;2018;80.0;Grupo de riesgo desconocido;PrimoInf;VIH12;Desconocido
+BURGOS;ESPAÑA;41.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;34.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+VALLADOLID;ESPAÑA;25.0;H;2019;10.0;Varones homosexuales / bisexuales;SIDA;NC;Homosex
+VALLADOLID;NICARAGUA;32.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;50.0;M;2019;77.0;Relaciones Heterosexuales;PrimoInf;NC;Heterosex
+ZAMORA;ESPAÑA;30.0;H;2018;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;49.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;37.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+VALLADOLID;ESPAÑA;29.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;33.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;29.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;49.0;M;2019;70.0;Relaciones Heterosexuales;SintNoSIDA;NC;Heterosex
+AVILA;ESPAÑA;27.0;H;2019;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;31.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+VALLADOLID;ESPAÑA;54.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;41.0;H;2019;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;37.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+ZAMORA;ESPAÑA;59.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;44.0;H;2019;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Desconocido
+VALLADOLID;ESPAÑA;30.0;H;2019;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+BURGOS;ESPAÑA;32.0;M;2019;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+AVILA;ESPAÑA;28.0;H;2019;80.0;Grupo de riesgo desconocido;PrimoInf;VIH12;Desconocido
+SALAMANCA;ESPAÑA;40.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;48.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;29.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+SEGOVIA;VENEZUELA;31.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;31.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+SALAMANCA;ESPAÑA;67.0;H;2019;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;49.0;H;2019;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;45.0;H;2019;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+VALLADOLID;ESPAÑA;38.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+VALLADOLID;ESPAÑA;35.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+PALENCIA;ESPAÑA;31.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;41.0;M;2019;70.0;Relaciones Heterosexuales;SintNoSIDA;NC;Heterosex
+PALENCIA;ESPAÑA;40.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ANGOLA;26.0;M;2019;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;REPUBLICA DOMINICANA;22.0;M;2019;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;40.0;H;2019;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;30.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+VALLADOLID;MARRUECOS;29.0;M;2020;70.0;Relaciones Heterosexuales;PrimoInf;NC;Heterosex
+BURGOS;VENEZUELA;38.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SEGOVIA;ESPAÑA;45.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;ESPAÑA;33.0;M;2020;77.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+VALLADOLID;ESPAÑA;30.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;43.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;CUBA;30.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;SENEGAL;53.0;H;2020;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;COLOMBIA;32.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;35.0;H;2017;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+SEGOVIA;ESPAÑA;20.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;BRASIL;24.0;M;2020;75.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+LEON;ESPAÑA;54.0;H;2020;10.0;Varones homosexuales / bisexuales;SIDA;VIH12;Homosex
+LEON;ESPAÑA;45.0;H;2020;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;RUMANA;22.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;21.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;24.0;M;2020;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;20.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SEGOVIA;CUBA;29.0;H;2020;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;22.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;20.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;29.0;H;2021;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+VALLADOLID;ESPAÑA;29.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+LEON;COLOMBIA;37.0;H;2021;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;COLOMBIA;31.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;46.0;H;2021;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;COLOMBIA;20.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+PALENCIA;ESPAÑA;30.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;21.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;25.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;28.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+LEON;ESPAÑA;35.0;H;2021;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+SALAMANCA;ESPAÑA;27.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;42.0;H;2021;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+BURGOS;REPUBLICA DOMINICANA;41.0;M;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;57.0;H;2010;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;33.0;M;2009;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;46.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;32.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2009;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;33.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+ZAMORA;ESPAÑA;45.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;NC;37.0;M;2009;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;51.0;H;2009;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;34.0;H;2009;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;46.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SEGOVIA;ESPAÑA;47.0;H;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;32.0;H;2009;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SORIA;BRASIL;32.0;M;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;MAURITANIA;38.0;H;2009;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SORIA;PERU;27.0;M;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+PALENCIA;ESPAÑA;32.0;H;2009;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+PALENCIA;ESPAÑA;56.0;H;2009;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+PALENCIA;MOZANBIQUE;42.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;RUMANA;21.0;M;2009;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Desconocido
+LEON;CUBA;33.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;MOZANBIQUE;30.0;M;2009;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;33.0;M;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;63.0;H;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;48.0;H;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;26.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;44.0;H;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;50.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;44.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;71.0;H;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;26.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;23.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;CHILE;37.0;M;2009;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;78.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;57.0;M;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+ZAMORA;MARRUECOS;39.0;H;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;46.0;H;2010;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;58.0;H;2009;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+AVILA;PERU;28.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+ZAMORA;ESPAÑA;65.0;M;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;GHANA;40.0;H;2010;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;29.0;M;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;PERU;32.0;H;2010;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;43.0;H;2010;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;29.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ECUADOR;7.0;M;2010;60.0;Hijo de madre a riesgo;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;39.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;53.0;H;2010;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;PORTUGAL;28.0;H;2010;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;RUMANA;27.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;38.0;M;2010;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;44.0;H;2010;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;26.0;H;2010;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+ZAMORA;VENEZUELA;48.0;M;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;50.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;39.0;H;2010;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SALAMANCA;ESPAÑA;37.0;H;2010;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+AVILA;ESPAÑA;24.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;36.0;H;2010;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;21.0;M;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+ZAMORA;EE.UU;23.0;H;2010;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+AVILA;COLOMBIA;49.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;71.0;H;2010;75.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+VALLADOLID;ESPAÑA;44.0;M;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;VENEZUELA;21.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;35.0;H;2010;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ARGENTINA;38.0;H;2010;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;37.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;40.0;H;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;RUMANA;32.0;H;2010;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;33.0;H;2010;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;49.0;M;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;49.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+PALENCIA;BRASIL;26.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SORIA;BRASIL;26.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;58.0;H;2010;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;33.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;33.0;M;2011;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;VENEZUELA;32.0;M;2010;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;BRASIL;29.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;43.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;33.0;H;2011;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+AVILA;RUMANA;32.0;H;2009;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;35.0;H;2011;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;38.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;46.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;GUINEA ECUATORIAL;29.0;M;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;31.0;H;2010;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ECUADOR;44.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;51.0;H;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;RUMANA;28.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ECUADOR;50.0;H;2010;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;BRASIL;38.0;M;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;53.0;M;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;RUMANA;25.0;H;2011;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;55.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;32.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;COLOMBIA;54.0;M;2010;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+LEON;ESPAÑA;47.0;H;2010;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;49.0;M;2011;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;58.0;H;2010;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;51.0;M;2011;71.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;PANAMA;28.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;42.0;H;2011;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;BRASIL;32.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;49.0;H;2011;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;42.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;51.0;H;2011;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;34.0;H;2011;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;51.0;H;2011;75.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+SALAMANCA;ESPAÑA;49.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;VENEZUELA;35.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;VENEZUELA;46.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;24.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;26.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;51.0;H;2011;71.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;BELGICA;39.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;BRASIL;28.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;GUINEA ECUATORIAL;31.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;29.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+ZAMORA;ESPAÑA;41.0;H;2011;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;37.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;54.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;BULGARIA;36.0;H;2011;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;62.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;38.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;24.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;RUMANA;27.0;M;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;37.0;H;2011;30.0;Personas que se inyectan drogas / Varones homo/bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;33.0;H;2011;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;31.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;20.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;34.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;PORTUGAL;31.0;M;2011;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;51.0;H;2011;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;30.0;H;2011;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;GUINEA ECUATORIAL;43.0;M;2012;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2012;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;52.0;H;2011;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+VALLADOLID;ESPAÑA;50.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;46.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+VALLADOLID;ESPAÑA;30.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;23.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;COLOMBIA;67.0;M;2011;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;22.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;34.0;H;2010;20.0;Personas que se inyectan drogas;SIDA;VIH12;Desconocido
+VALLADOLID;ESPAÑA;39.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;37.0;H;2011;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;COLOMBIA;42.0;H;2012;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;21.0;H;2012;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SEGOVIA;ESPAÑA;52.0;H;2012;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;30.0;M;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;45.0;H;2012;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+AVILA;ESPAÑA;16.0;H;2012;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SEGOVIA;ESPAÑA;46.0;M;2011;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;39.0;M;2011;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;38.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;37.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;COLOMBIA;50.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;RUMANA;27.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;BULGARIA;33.0;M;2012;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;33.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;25.0;H;2012;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;CUBA;31.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;ESPAÑA;48.0;H;2012;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+LEON;ESPAÑA;37.0;H;2012;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;29.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;44.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;70.0;M;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;RUMANA;23.0;M;2012;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;51.0;H;2013;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SORIA;ESPAÑA;57.0;M;2013;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;42.0;M;2012;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;32.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;20.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;35.0;H;2012;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+BURGOS;ESPAÑA;73.0;H;2012;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;PAKISTAN;37.0;H;2012;76.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+VALLADOLID;RUMANA;34.0;M;2013;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;40.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;46.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;38.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;44.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;60.0;H;2012;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;44.0;M;2012;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;25.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;39.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;35.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;40.0;H;2013;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;28.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;38.0;H;2013;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;20.0;H;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;30.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;36.0;H;2013;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;41.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;54.0;H;2013;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;29.0;M;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;58.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;REPUBLICA DOMINICANA;50.0;M;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;54.0;H;2013;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+SALAMANCA;ESPAÑA;38.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;56.0;H;2013;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;36.0;H;2013;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;34.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;32.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;50.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;35.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;20.0;H;2013;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+ZAMORA;REPUBLICA DOMINICANA;28.0;M;2013;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;33.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;GHANA;30.0;M;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;GUINEA ECUATORIAL;48.0;M;2013;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;41.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+BURGOS;ESPAÑA;22.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;GUINEA ECUATORIAL;52.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SORIA;ESPAÑA;39.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;35.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;46.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;54.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;1.0;H;2013;64.0;Hijo de madre a riesgo;PrimoInf;VIH1;Desconocido
+SALAMANCA;COSTA DE MARFIL;27.0;H;2013;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+AVILA;ESPAÑA;28.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;41.0;H;2013;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;56.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;21.0;H;2014;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;42.0;H;2014;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+VALLADOLID;RUSIA;42.0;M;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;53.0;H;2014;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SEGOVIA;ESPAÑA;34.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+ZAMORA;COLOMBIA;57.0;M;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;27.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;44.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;48.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;PERU;30.0;H;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;43.0;H;2014;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+SALAMANCA;ALEMANIA;43.0;H;2014;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;40.0;H;2013;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;39.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;41.0;M;2014;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;22.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;46.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+BURGOS;ESPAÑA;35.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;46.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;44.0;H;2014;74.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+LEON;ESPAÑA;18.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;41.0;M;2014;71.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+PALENCIA;ESPAÑA;34.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;38.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;FILIPINAS;32.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;53.0;H;2014;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;45.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;REPUBLICA DOMINICANA;25.0;M;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;34.0;H;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;35.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;49.0;H;2015;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+PALENCIA;ESPAÑA;34.0;M;2014;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;49.0;H;2012;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;47.0;M;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;32.0;H;2012;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+PALENCIA;ESPAÑA;68.0;H;2015;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Desconocido
+PALENCIA;ESPAÑA;50.0;H;2015;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+PALENCIA;ESPAÑA;66.0;M;2015;71.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;RUMANA;26.0;M;2015;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;26.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;52.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;MARRUECOS;44.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;34.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;45.0;M;2014;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;25.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;ESPAÑA;31.0;H;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;25.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;23.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;30.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;25.0;H;2015;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;29.0;H;2015;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SEGOVIA;ESPAÑA;23.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;50.0;H;2014;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+SEGOVIA;ESPAÑA;45.0;H;2015;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;52.0;H;2011;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;31.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;30.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;27.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;23.0;M;2015;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SORIA;ESPAÑA;59.0;H;2015;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;27.0;H;2015;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SORIA;ESPAÑA;43.0;H;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;22.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;46.0;H;2015;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;43.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SORIA;ESPAÑA;38.0;M;2015;76.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;28.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;40.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2016;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;ESPAÑA;52.0;H;2015;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+PALENCIA;ESPAÑA;27.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;BULGARIA;46.0;M;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;40.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;36.0;H;2016;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;54.0;H;2016;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+SORIA;ESPAÑA;43.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;52.0;H;2016;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;56.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;COLOMBIA;43.0;H;2016;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+LEON;ESPAÑA;40.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;33.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;36.0;H;2016;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;47.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;43.0;H;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;44.0;M;2016;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;50.0;H;2016;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;32.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;COLOMBIA;51.0;H;2016;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+BURGOS;GUINEA ECUATORIAL;60.0;M;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;37.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;32.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;32.0;M;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;43.0;H;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;37.0;M;2016;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;43.0;H;2016;70.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+BURGOS;ESPAÑA;33.0;H;2016;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;37.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;57.0;H;2016;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;46.0;H;2017;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;36.0;H;2016;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;COLOMBIA;24.0;M;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;29.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;54.0;H;2016;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;30.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;19.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SEGOVIA;BULGARIA;43.0;H;2017;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;46.0;M;2017;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;33.0;H;2016;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SORIA;ESPAÑA;30.0;H;2016;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;NIGERIA;36.0;M;2017;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;35.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;38.0;M;2017;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SEGOVIA;ESPAÑA;50.0;M;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;21.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;GUINEA;24.0;M;2017;76.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+ZAMORA;ESPAÑA;64.0;H;2017;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;43.0;M;2011;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;36.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;47.0;H;2017;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;42.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;29.0;H;2017;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;ESPAÑA;30.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;49.0;H;2017;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;24.0;H;2017;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+ZAMORA;ESPAÑA;52.0;M;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;38.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;63.0;H;2017;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;MARRUECOS;59.0;M;2017;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;34.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;38.0;M;2012;20.0;Personas que se inyectan drogas;Asintom;VIH12;Desconocido
+SALAMANCA;HONDURAS;31.0;H;2017;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;57.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;44.0;H;2017;74.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;27.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;45.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;30.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+ZAMORA;ESPAÑA;42.0;H;2017;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;TOGO;39.0;M;2017;76.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;66.0;H;2015;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+LEON;ESPAÑA;51.0;H;2017;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;42.0;H;2017;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;24.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;30.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+BURGOS;VENEZUELA;33.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+ZAMORA;ESPAÑA;36.0;H;2018;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;65.0;M;2017;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;39.0;H;2018;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+PALENCIA;VENEZUELA;39.0;M;2018;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;28.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+SALAMANCA;ESPAÑA;57.0;M;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ECUADOR;27.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;56.0;M;2018;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;42.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SEGOVIA;ESPAÑA;35.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;22.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;ESPAÑA;43.0;H;2018;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;29.0;H;2018;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+AVILA;COLOMBIA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;29.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;35.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+BURGOS;COLOMBIA;22.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+SALAMANCA;ESPAÑA;36.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;29.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;REPUBLICA DOMINICANA;59.0;H;2018;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;45.0;H;2018;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;26.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+LEON;ESPAÑA;38.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;52.0;H;2018;10.0;Varones homosexuales / bisexuales;SIDA;VIH12;Homosex
+BURGOS;ESPAÑA;35.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+SALAMANCA;ESPAÑA;25.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2018;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SEGOVIA;ESPAÑA;52.0;H;2018;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;31.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;51.0;H;2019;70.0;Relaciones Heterosexuales;SIDA;NC;Heterosex
+SEGOVIA;ESPAÑA;22.0;M;2019;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;23.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+SEGOVIA;ESPAÑA;48.0;M;2019;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;49.0;H;2010;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Heterosex
+SEGOVIA;HONDURAS;57.0;M;2019;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;GHANA;42.0;M;2013;76.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SALAMANCA;ESPAÑA;24.0;H;2019;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;41.0;M;2019;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;59.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+VALLADOLID;ESPAÑA;34.0;H;2018;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;47.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;48.0;H;2019;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;24.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+VALLADOLID;ESPAÑA;48.0;H;2019;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+BURGOS;ESPAÑA;31.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;56.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;VENEZUELA;25.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+VALLADOLID;BULGARIA;43.0;H;2018;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+AVILA;REPUBLICA DOMINICANA;23.0;M;2019;75.0;Relaciones Heterosexuales;SintNoSIDA;NC;Heterosex
+VALLADOLID;ESPAÑA;40.0;M;2019;70.0;Relaciones Heterosexuales;SIDA;NC;Heterosex
+LEON;ESPAÑA;28.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;59.0;H;2019;20.0;Personas que se inyectan drogas;Asintom;NC;Desconocido
+BURGOS;ESPAÑA;27.0;M;2019;70.0;Relaciones Heterosexuales;Asintom;NC;Heterosex
+SALAMANCA;ESPAÑA;27.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+SALAMANCA;ESPAÑA;26.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;COLOMBIA;24.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+SORIA;ESPAÑA;36.0;H;2019;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;47.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+BURGOS;ESPAÑA;64.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+BURGOS;COLOMBIA;24.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;55.0;H;2019;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;43.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;NC;Heterosex
+BURGOS;ESPAÑA;54.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+AVILA;REPUBLICA DOMINICANA;28.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+VALLADOLID;COLOMBIA;25.0;H;2019;10.0;Varones homosexuales / bisexuales;SIDA;NC;Homosex
+VALLADOLID;ESPAÑA;54.0;H;2019;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;48.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+PALENCIA;ESPAÑA;40.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+VALLADOLID;ESPAÑA;58.0;M;2020;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;26.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+SALAMANCA;ESPAÑA;53.0;H;2019;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;50.0;H;2020;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;43.0;H;2020;80.0;Grupo de riesgo desconocido;SIDA;NC;Desconocido
+BURGOS;ECUADOR;46.0;H;2020;70.0;Relaciones Heterosexuales;Asintom;NC;Heterosex
+BURGOS;ESPAÑA;42.0;H;2020;80.0;Grupo de riesgo desconocido;SIDA;VIH12;Desconocido
+BURGOS;BRASIL;44.0;M;2020;80.0;Grupo de riesgo desconocido;SIDA;NC;Desconocido
+LEON;ESPAÑA;43.0;H;2020;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+BURGOS;ARGENTINA;27.0;H;2020;70.0;Relaciones Heterosexuales;SintNoSIDA;NC;Heterosex
+LEON;ESPAÑA;26.0;H;2020;70.0;Relaciones Heterosexuales;PrimoInf;NC;Heterosex
+LEON;ESPAÑA;52.0;M;2020;71.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;PARAGUAY;30.0;M;2020;77.0;Relaciones Heterosexuales;PrimoInf;NC;Heterosex
+LEON;ESPAÑA;26.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH2;Homosex
+LEON;ESPAÑA;51.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;NC;Homosex
+VALLADOLID;ESPAÑA;46.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+SEGOVIA;COLOMBIA;36.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;34.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+LEON;VENEZUELA;33.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;22.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+VALLADOLID;BRASIL;43.0;M;2020;77.0;Relaciones Heterosexuales;SintNoSIDA;NC;Heterosex
+VALLADOLID;ESPAÑA;34.0;H;2020;10.0;Varones homosexuales / bisexuales;SintNoSIDA;NC;Homosex
+VALLADOLID;ESPAÑA;37.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;CUBA;25.0;H;2015;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;50.0;H;2021;70.0;Relaciones Heterosexuales;PrimoInf;NC;Heterosex
+SEGOVIA;ESPAÑA;41.0;H;2021;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;37.0;H;2021;77.0;Relaciones Heterosexuales;Asintom;NC;Heterosex
+LEON;ESPAÑA;62.0;H;2020;10.0;Varones homosexuales / bisexuales;SintNoSIDA;NC;Homosex
+SALAMANCA;ESPAÑA;60.0;H;2021;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;38.0;H;2021;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+AVILA;CHILE;36.0;H;2009;78.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;45.0;H;2009;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+LEON;ESPAÑA;32.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;25.0;H;2009;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;32.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;21.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;ESPAÑA;31.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;GUINEA ECUATORIAL;37.0;H;2009;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ECUADOR;24.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;22.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;41.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;41.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;BRASIL;24.0;H;2009;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+BURGOS;COLOMBIA;41.0;M;2009;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;49.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;51.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;39.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;SUIZA;38.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;COLOMBIA;23.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;50.0;H;2009;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;46.0;M;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;39.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;PORTUGAL;37.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;BULGARIA;43.0;H;2009;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;50.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;45.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;35.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;52.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SEGOVIA;TOGO;38.0;M;2010;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;36.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;41.0;H;2009;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ITALIA;42.0;M;2009;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SALAMANCA;ESPAÑA;29.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;28.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;51.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;56.0;H;2009;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;31.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;BRASIL;33.0;H;2009;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+SALAMANCA;ESPAÑA;32.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;POLONIA;24.0;H;2009;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+AVILA;ESPAÑA;48.0;H;2009;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;BRASIL;28.0;H;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+AVILA;AUSTRALIA;40.0;H;2009;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+AVILA;ESPAÑA;75.0;M;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;39.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+LEON;ESPAÑA;25.0;H;2009;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+LEON;ESPAÑA;26.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;41.0;H;2009;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;36.0;H;2009;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;40.0;H;2010;30.0;Personas que se inyectan drogas / Varones homo/bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;56.0;H;2009;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;26.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;GHANA;36.0;H;2010;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;37.0;M;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;RUMANA;20.0;M;2009;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;MARRUECOS;50.0;H;2009;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ECUADOR;39.0;M;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+ZAMORA;ESPAÑA;35.0;M;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;NICARAGUA;29.0;M;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;56.0;M;2010;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+VALLADOLID;ESPAÑA;42.0;M;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;54.0;H;2010;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+VALLADOLID;ESPAÑA;46.0;M;2010;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;36.0;H;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ECUADOR;50.0;H;2010;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;39.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;54.0;H;2010;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;27.0;H;2010;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;RUMANA;42.0;H;2010;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;51.0;H;2010;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Desconocido
+BURGOS;ESPAÑA;28.0;H;2010;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+BURGOS;ESPAÑA;36.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH12;Desconocido
+VALLADOLID;ESPAÑA;39.0;H;2010;71.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SALAMANCA;PORTUGAL;38.0;H;2010;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;50.0;H;2010;71.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;52.0;H;2010;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;33.0;M;2010;77.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;60.0;H;2010;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;46.0;H;2010;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;REPUBLICA DOMINICANA;25.0;M;2010;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;PORTUGAL;31.0;H;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;53.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;45.0;H;2010;30.0;Personas que se inyectan drogas / Varones homo/bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;26.0;H;2011;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;M;2010;71.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;53.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;43.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;38.0;H;2011;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;VENEZUELA;37.0;M;2010;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;59.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;50.0;H;2009;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+BURGOS;ESPAÑA;39.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;26.0;H;2010;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+PALENCIA;ESPAÑA;30.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;41.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;28.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;62.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ARGENTINA;45.0;H;2011;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;40.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;67.0;H;2010;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2011;72.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;40.0;M;2011;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;BULGARIA;24.0;H;2010;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;37.0;H;2011;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Desconocido
+VALLADOLID;ESPAÑA;45.0;M;2010;71.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;25.0;H;2011;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;31.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;ESPAÑA;50.0;H;2011;10.0;Varones homosexuales / bisexuales;SIDA;VIH12;Homosex
+SALAMANCA;ESPAÑA;52.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;62.0;H;2011;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+PALENCIA;RUMANA;46.0;M;2011;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;27.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+SALAMANCA;ESPAÑA;35.0;M;2011;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;38.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+SALAMANCA;ESPAÑA;31.0;H;2011;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+SALAMANCA;ESPAÑA;28.0;H;2011;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;46.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;52.0;H;2011;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;54.0;M;2011;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+BURGOS;ESPAÑA;41.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+BURGOS;REPUBLICA DOMINICANA;29.0;H;2011;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;GUINEA ECUATORIAL;23.0;M;2011;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;25.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+ZAMORA;ESPAÑA;47.0;H;2011;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;ESPAÑA;37.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;56.0;H;2011;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH12;Desconocido
+PALENCIA;MARRUECOS;44.0;H;2011;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;21.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+BURGOS;ESPAÑA;43.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+AVILA;GUINEA ECUATORIAL;41.0;H;2012;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;BRASIL;30.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;49.0;H;2011;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH12;Desconocido
+BURGOS;ESPAÑA;34.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+LEON;ESPAÑA;44.0;M;2011;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;30.0;H;2012;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;VENEZUELA;25.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+SALAMANCA;ESPAÑA;23.0;H;2011;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ECUADOR;39.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;45.0;H;2011;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;COLOMBIA;35.0;M;2012;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;19.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;52.0;H;2012;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;21.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;BRASIL;31.0;M;2011;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+VALLADOLID;VENEZUELA;39.0;H;2011;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+VALLADOLID;ESPAÑA;43.0;M;2011;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;41.0;M;2011;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;24.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;40.0;H;2011;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;25.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;36.0;H;2011;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;39.0;H;2011;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;45.0;H;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;22.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;65.0;H;2012;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;24.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SEGOVIA;COLOMBIA;40.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;ESPAÑA;39.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SALAMANCA;ESPAÑA;27.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;51.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;63.0;H;2012;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;37.0;H;2012;20.0;Personas que se inyectan drogas;SIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;27.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;29.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;45.0;H;2012;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+PALENCIA;ESPAÑA;34.0;H;2012;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+SALAMANCA;ESPAÑA;29.0;H;2012;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SEGOVIA;ESPAÑA;53.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;51.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;BRASIL;29.0;H;2011;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+SALAMANCA;ESPAÑA;30.0;H;2012;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;26.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;38.0;M;2012;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;64.0;H;2012;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;37.0;H;2012;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;ESPAÑA;45.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;42.0;H;2013;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;MEXICO;24.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;37.0;H;2012;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;51.0;M;2012;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;31.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;28.0;M;2012;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;CABO VERDE;32.0;M;2012;70.0;Relaciones Heterosexuales;Asintom;VIH2;Heterosex
+LEON;ESPAÑA;58.0;M;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ECUADOR;19.0;M;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;31.0;H;2011;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;REPUBLICA DOMINICANA;35.0;H;2013;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;33.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;26.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;43.0;H;2012;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+VALLADOLID;PORTUGAL;38.0;H;2013;77.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;61.0;H;2012;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;45.0;H;2012;80.0;Grupo de riesgo desconocido;SintNoSIDA;VIH1;Desconocido
+SALAMANCA;ESPAÑA;34.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;45.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;33.0;H;2013;71.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;26.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;RUMANA;33.0;M;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;47.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ALEMANIA;25.0;H;2012;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;PORTUGAL;38.0;H;2013;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;COLOMBIA;62.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;30.0;H;2012;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;RUMANA;31.0;H;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ECUADOR;37.0;M;2013;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;35.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;28.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;24.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;26.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;23.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;35.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;41.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;MOZANBIQUE;36.0;M;2013;76.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;21.0;H;2013;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SALAMANCA;TAILANDIA;43.0;M;2013;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;43.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;41.0;H;2013;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;29.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+SALAMANCA;ESPAÑA;54.0;H;2013;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+PALENCIA;ESPAÑA;52.0;H;2013;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+LEON;ESPAÑA;29.0;H;2013;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SORIA;ESPAÑA;32.0;H;2013;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;28.0;M;2013;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;BRASIL;42.0;H;2013;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;REPUBLICA DOMINICANA;42.0;M;2014;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;40.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH12;Homosex
+VALLADOLID;ESPAÑA;47.0;M;2014;72.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;29.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;31.0;H;2013;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;34.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+PALENCIA;ESPAÑA;51.0;H;2014;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+ZAMORA;ESPAÑA;34.0;H;2014;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;42.0;M;2014;71.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;24.0;M;2013;75.0;Relaciones Heterosexuales;PrimoInf;VIH12;Heterosex
+BURGOS;ESPAÑA;29.0;M;2013;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+LEON;MEXICO;25.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;39.0;H;2013;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;RUMANA;45.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;37.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;BRASIL;47.0;H;2013;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;30.0;M;2013;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;30.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;36.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;22.0;H;2013;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+PALENCIA;ESPAÑA;37.0;M;2014;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;40.0;H;2013;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;BRASIL;28.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;PORTUGAL;29.0;H;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;51.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;35.0;H;2014;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;28.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;42.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;ESPAÑA;27.0;M;2014;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;PORTUGAL;25.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;ESPAÑA;66.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;37.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;29.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;33.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;40.0;H;2014;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;40.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;41.0;M;2014;72.0;Relaciones Heterosexuales;SintNoSIDA;VIH12;Heterosex
+SEGOVIA;ESPAÑA;32.0;H;2014;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;46.0;H;2014;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SALAMANCA;PORTUGAL;34.0;H;2011;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;PORTUGAL;50.0;H;2012;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+LEON;PORTUGAL;35.0;H;2014;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+LEON;ESPAÑA;58.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;33.0;M;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;38.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;CUBA;41.0;M;2009;50.0;Receptor trasfusiones;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;31.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;39.0;H;2015;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;33.0;H;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;28.0;H;2010;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;34.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;26.0;M;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;47.0;H;2015;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ECUADOR;22.0;H;2015;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+ZAMORA;ESPAÑA;44.0;M;2014;76.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;40.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Desconocido
+VALLADOLID;ESPAÑA;40.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;48.0;H;2011;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;32.0;H;2009;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;59.0;H;2009;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;31.0;H;2011;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+PALENCIA;ESPAÑA;47.0;M;2010;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;45.0;H;2015;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;70.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;62.0;H;2015;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;57.0;M;2012;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;21.0;H;2015;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+BURGOS;ESPAÑA;45.0;H;2011;20.0;Personas que se inyectan drogas;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;31.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;67.0;H;2015;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;23.0;H;2014;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;51.0;H;2014;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+LEON;ESPAÑA;56.0;H;2015;74.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;22.0;H;2015;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;26.0;H;2015;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;41.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+BURGOS;ESPAÑA;43.0;H;2015;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+LEON;ESPAÑA;27.0;M;2015;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;32.0;H;2015;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+AVILA;ESPAÑA;37.0;H;2015;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;38.0;H;2015;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;26.0;M;2015;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;49.0;H;2014;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2016;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;53.0;M;2015;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;ESPAÑA;44.0;M;2010;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;51.0;M;2015;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;MARRUECOS;39.0;H;2016;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;52.0;M;2014;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;25.0;H;2015;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;51.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;COLOMBIA;47.0;H;2016;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;38.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;39.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;COLOMBIA;51.0;M;2011;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+SORIA;VENEZUELA;25.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;60.0;H;2016;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;57.0;H;2009;77.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;36.0;M;2016;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Desconocido
+VALLADOLID;MARRUECOS;37.0;H;2016;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;32.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;27.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+AVILA;ESPAÑA;29.0;H;2016;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+VALLADOLID;ESPAÑA;38.0;H;2015;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;46.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;27.0;H;2016;77.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+BURGOS;ESPAÑA;29.0;H;2016;80.0;Grupo de riesgo desconocido;PrimoInf;VIH12;Desconocido
+VALLADOLID;ESPAÑA;44.0;M;2014;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;33.0;M;2016;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;COLOMBIA;27.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;26.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;46.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+AVILA;ESPAÑA;49.0;H;2016;10.0;Varones homosexuales / bisexuales;SIDA;VIH12;Homosex
+SALAMANCA;ESPAÑA;35.0;M;2016;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;59.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;66.0;H;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;49.0;H;2016;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;26.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;ESPAÑA;20.0;H;2016;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;PORTUGAL;41.0;H;2017;75.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SORIA;ESPAÑA;48.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;50.0;H;2013;20.0;Personas que se inyectan drogas;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;38.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;48.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;49.0;H;2016;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;VENEZUELA;30.0;H;2013;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;42.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+PALENCIA;ESPAÑA;52.0;H;2017;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SALAMANCA;ESPAÑA;20.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;53.0;H;2016;20.0;Personas que se inyectan drogas;SIDA;VIH12;Heterosex
+SALAMANCA;COLOMBIA;27.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;56.0;H;2009;20.0;Personas que se inyectan drogas;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;46.0;H;2016;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;36.0;H;2016;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;46.0;H;2017;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;33.0;H;2017;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;48.0;H;2010;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+BURGOS;ESPAÑA;29.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;44.0;H;2016;70.0;Relaciones Heterosexuales;Asintom;VIH12;Heterosex
+SORIA;ESPAÑA;19.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;HONDURAS;35.0;H;2017;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+PALENCIA;ESPAÑA;24.0;H;2017;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+PALENCIA;ESPAÑA;27.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;40.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;35.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;35.0;H;2017;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;CHINA;24.0;H;2015;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;25.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;29.0;H;2017;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;58.0;H;2017;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;39.0;M;2017;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;43.0;H;2009;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;23.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;24.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SEGOVIA;ESPAÑA;21.0;M;2018;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;VENEZUELA;30.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;26.0;M;2015;70.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+BURGOS;ESPAÑA;54.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;ESPAÑA;35.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;38.0;M;2018;75.0;Relaciones Heterosexuales;SIDA;VIH12;Heterosex
+SALAMANCA;ESPAÑA;22.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+LEON;PORTUGAL;51.0;M;2018;71.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;36.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+BURGOS;JAMAICA;19.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;31.0;M;2018;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;HONDURAS;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;47.0;H;2017;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;28.0;H;2014;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;61.0;M;2018;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+SALAMANCA;ESPAÑA;20.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;34.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;ESPAÑA;39.0;H;2018;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;32.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;42.0;H;2018;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+VALLADOLID;ESPAÑA;37.0;H;2017;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SALAMANCA;GUATEMALA;22.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;21.0;H;2018;72.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+AVILA;VENEZUELA;45.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;31.0;H;2012;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+VALLADOLID;ESPAÑA;31.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;BOLIVIA;60.0;M;2018;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;35.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;31.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;32.0;H;2009;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+AVILA;ESPAÑA;27.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;42.0;H;2011;80.0;Grupo de riesgo desconocido;PrimoInf;VIH1;Desconocido
+VALLADOLID;ESPAÑA;20.0;M;2012;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;54.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;ESPAÑA;23.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;39.0;H;2018;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+VALLADOLID;ESPAÑA;30.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SORIA;VENEZUELA;32.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+SORIA;ESPAÑA;42.0;H;2018;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;32.0;H;2018;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;50.0;H;2018;10.0;Varones homosexuales / bisexuales;SIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;52.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;34.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SALAMANCA;ESPAÑA;26.0;H;2019;75.0;Relaciones Heterosexuales;Asintom;NC;Heterosex
+VALLADOLID;ESPAÑA;42.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+SALAMANCA;ESPAÑA;33.0;H;2019;20.0;Personas que se inyectan drogas;PrimoInf;VIH1;Desconocido
+ZAMORA;ESPAÑA;45.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;53.0;H;2018;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+AVILA;ESPAÑA;35.0;H;2018;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+ZAMORA;ESPAÑA;28.0;H;2019;75.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+AVILA;ESPAÑA;40.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;52.0;H;2009;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+LEON;ESPAÑA;28.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;ESPAÑA;39.0;H;2019;20.0;Personas que se inyectan drogas;Asintom;VIH12;Desconocido
+PALENCIA;EL SALVADOR;28.0;H;2019;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SORIA;ESPAÑA;42.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+VALLADOLID;ESPAÑA;39.0;M;2019;70.0;Relaciones Heterosexuales;Asintom;NC;Heterosex
+SEGOVIA;ESPAÑA;52.0;H;2019;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;23.0;M;2019;70.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+VALLADOLID;ESPAÑA;52.0;H;2016;20.0;Personas que se inyectan drogas;Asintom;VIH1;Heterosex
+VALLADOLID;ESPAÑA;46.0;H;2019;70.0;Relaciones Heterosexuales;SIDA;NC;Heterosex
+LEON;ESPAÑA;39.0;H;2019;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+VALLADOLID;ESPAÑA;23.0;M;2019;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;ESPAÑA;56.0;H;2019;75.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SORIA;ESPAÑA;58.0;M;2019;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+BURGOS;ESPAÑA;23.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+BURGOS;ESPAÑA;50.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+VALLADOLID;ESPAÑA;53.0;H;2019;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+VALLADOLID;ESPAÑA;45.0;H;2019;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+BURGOS;ESPAÑA;29.0;H;2018;10.0;Varones homosexuales / bisexuales;Asintom;VIH12;Homosex
+SORIA;COLOMBIA;39.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+LEON;ESPAÑA;39.0;M;2019;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SALAMANCA;ESPAÑA;22.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;43.0;H;2019;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;23.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+VALLADOLID;ESPAÑA;20.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+PALENCIA;ESPAÑA;72.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;VIH12;Desconocido
+SEGOVIA;ESPAÑA;51.0;H;2020;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+ZAMORA;ESPAÑA;46.0;H;2020;74.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+VALLADOLID;VENEZUELA;27.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+ZAMORA;ESPAÑA;36.0;H;2020;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;ESPAÑA;46.0;H;2020;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+LEON;CUBA;39.0;H;2020;80.0;Grupo de riesgo desconocido;PrimoInf;VIH12;Desconocido
+VALLADOLID;ESPAÑA;31.0;H;2020;10.0;Varones homosexuales / bisexuales;Asintom;NC;Homosex
+VALLADOLID;ESPAÑA;31.0;H;2020;80.0;Grupo de riesgo desconocido;SIDA;NC;Desconocido
+LEON;ESPAÑA;39.0;H;2011;30.0;Personas que se inyectan drogas / Varones homo/bisexuales;Asintom;NC;Homosex
+LEON;ESPAÑA;30.0;H;2020;10.0;Varones homosexuales / bisexuales;SintNoSIDA;NC;Homosex
+LEON;ESPAÑA;27.0;H;2020;80.0;Grupo de riesgo desconocido;SIDA;VIH12;Desconocido
+VALLADOLID;ESPAÑA;44.0;H;2020;80.0;Grupo de riesgo desconocido;SintNoSIDA;NC;Desconocido
+LEON;ESPAÑA;51.0;H;2020;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH12;Homosex
+VALLADOLID;ESPAÑA;28.0;H;2020;70.0;Relaciones Heterosexuales;SIDA;NC;Heterosex
+SALAMANCA;VENEZUELA;32.0;H;2020;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+PALENCIA;ESPAÑA;51.0;H;2020;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+LEON;ESPAÑA;31.0;H;2019;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+BURGOS;CHILE;39.0;H;2020;10.0;Varones homosexuales / bisexuales;SIDA;VIH12;Homosex
+ZAMORA;ESPAÑA;30.0;H;2020;70.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+SEGOVIA;BULGARIA;29.0;H;2020;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SALAMANCA;ANGOLA;45.0;H;2020;70.0;Relaciones Heterosexuales;PrimoInf;VIH1;Heterosex
+AVILA;ARGENTINA;25.0;H;2020;80.0;Grupo de riesgo desconocido;SIDA;VIH12;Desconocido
+LEON;CUBA;29.0;H;2020;77.0;Relaciones Heterosexuales;Asintom;VIH1;Heterosex
+LEON;COLOMBIA;33.0;M;2020;10.0;Varones homosexuales / bisexuales;Asintom;VIH1;Homosex
+SEGOVIA;REPUBLICA DOMINICANA;43.0;M;2020;75.0;Relaciones Heterosexuales;SintNoSIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;26.0;H;2021;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+VALLADOLID;ESPAÑA;28.0;H;2021;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+SALAMANCA;ESPAÑA;44.0;M;2020;80.0;Grupo de riesgo desconocido;PrimoInf;NC;Desconocido
+SORIA;ESPAÑA;35.0;H;2020;70.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+ZAMORA;ESPAÑA;31.0;H;2021;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+ZAMORA;ESPAÑA;20.0;H;2021;10.0;Varones homosexuales / bisexuales;PrimoInf;VIH1;Homosex
+PALENCIA;ESPAÑA;32.0;H;2020;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+SEGOVIA;ESPAÑA;42.0;H;2021;75.0;Relaciones Heterosexuales;SIDA;VIH1;Heterosex
+LEON;ESPAÑA;27.0;H;2021;10.0;Varones homosexuales / bisexuales;SintNoSIDA;VIH1;Homosex
+LEON;ESPAÑA;49.0;H;2021;80.0;Grupo de riesgo desconocido;SIDA;VIH1;Desconocido
+LEON;ESPAÑA;64.0;M;2020;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
+LEON;ESPAÑA;33.0;M;2021;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;24.0;H;2021;80.0;Grupo de riesgo desconocido;Asintom;VIH1;Desconocido
+LEON;ESPAÑA;49.0;H;2021;80.0;Grupo de riesgo desconocido;Asintom;NC;Desconocido
