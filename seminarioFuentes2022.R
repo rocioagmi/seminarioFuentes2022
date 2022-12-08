@@ -77,6 +77,16 @@ c2 <- registroNuevasInfecciones%>%
 
 # View(c2)
 
+promedioAntiguos <- registroRegionalSida%>%
+  dplyr::filter(Año < 2009)%>%
+  group_by(Año, Provincia)%>%
+  dplyr::filter(n() > 1)%>%
+  summarise(across(c(Sexo), ~ length(unique(.x))))%>%
+  mutate(Tipo = "Tipo 1")%>%
+  relocate(Tipo , .before = Sexo)%>%
+  relocate(Provincia , .before = Sexo)
+# View(promedioAntiguos)
+
 Union <- full_join(x = c1, y = c2)
 # View(Union)
 library(ggplot2)

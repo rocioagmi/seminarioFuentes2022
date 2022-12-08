@@ -1,6 +1,6 @@
 ---
-title: "VIH ambiente"
-author: "Rocío"
+title: "VIH y el ambiente"
+author: "Rocío Águeda"
 date: "`r Sys.Date()`"
 output:
   html_document:
@@ -12,18 +12,33 @@ output:
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 ## Introducción
 
+El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema inmunitario del cuerpo, setransmite a través de la sangre y actualmente no tiene cura, únicamente se puede controlar con una adecuada atención médica.
+
+
 ### Objetivos
-- Intentar saber si existe relación entre el motivo del contagio y el sexo.
+
+- Investigar si existe relación entre el motivo del contagio del virus y el sexo del afectado.
 - 
+
 ## Métodos
 ### Carga de paquetes
+
+Para llevar a cabo la investigación se ha hecho uso de algunos paquetes necesarios para leer los datos, modificarlos, unirlos y poder plasmarlos de forma visual a modo de gráficas.
+
 ```{r, warning = FALSE, message = FALSE}
 library(readr)
 library (dplyr)
+library(ggplot2)
+library(tidyverse)
 ```
+
 ### Carga de datos
+
+Los datos que he utilizado provienen de la sección de datos abiertos página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html) y los he encontrado en formato CSV.
+
 ```{r, warning = FALSE, message = FALSE}
 registro_regional_de_sida <- read_delim("DATA/registro-regional-de-sida.csv",
                                         delim = ";", escape_double = FALSE, trim_ws = TRUE)
@@ -31,11 +46,15 @@ registro_regional_de_sida <- read_delim("DATA/registro-regional-de-sida.csv",
 registro_nuevas_infecciones_por_vih <- read_delim("DATA/registro-nuevas-infecciones-por-vih.csv", 
                                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
-### Arreglamos las tablas
+
+### Exploración de los datos
+Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente y seleccionamos los datos que realmente son de nuestro interés.
+
 ```{r, warning = FALSE, message = FALSE}
 registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = "Provincia residencia", Codigo_Riesgo = "Código Grupo de riesgo asignado", Grupo_Riesgo = "grupo riesgo", Año = "VIH")%>%
   relocate(., "País de nacimiento (si no es España)", .before = "Estado clínico de la infección por VIH")%>%
   select(., Provincia:Grupo_Riesgo)%>%
+  dplyr::filter(Año < 2009)%>%
   arrange(Año)
 
 registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año de diagnóstico", Edad = "Edad años", Codigo_Riesgo = "Código Grupo de riesgo", Grupo_Riesgo = "Grupo de riesgo", Provincia = "provincia")%>%
@@ -44,8 +63,9 @@ registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año d
   select(., Año:Grupo_Riesgo)%>%
   arrange(Año)
 ```
-### Unimos las tablas
-Antes de unir dos tablas primero tenemos que saber si es posible. Para ello obtendremos los valores de las variables cuantificables, a partir de las cuales nos serviremos para hacer la unión. Observando los resultados, los niveles son los mismos por lo que podemos continuar.
+
+Antes pasar a unir las tablas tenemos que saber si es posible. Para ello obtendremos los niveles de las variables cuantificables de ambas. Observando los resultados, podemos ver que los niveles de variables de interés de ambas tablas coinciden, por lo que podemos continuar.
+
 ```{r, warning = FALSE, message = FALSE}
 levels(factor(registroRegionalSida$Sexo))
 levels(factor(registroRegionalSida$Provincia))
@@ -57,5 +77,26 @@ levels(factor(registroNuevasInfecciones$Grupo_Riesgo))
 ```
 
 ```{r}
+
+promedioAntiguos <- registroRegionalSida%>%
+  group_by(Sexo, Año)%>%
+  dplyr::filter(n() > 1)%>%
+  summarise(across(c(), ~ mean(.x, na.rm = TRUE)))%>%
+  mutate(Tipo = "Tipo 1")%>%
+  relocate(Tipo , .before = Sexo)%>%
+  relocate(Provincia , .before = Sexo)
+
+promedioNuevos <- registroNuevasInfecciones%>%
+  group_by(Sexo, Año)%>%
+  dplyr::filter(n() > 1)%>%
+  summarise(across(c(Año,Edad), ~ mean(.x, na.rm = TRUE)))%>%
+  mutate(Tipo = "Tipo 2")%>%
+  relocate(Tipo , .before = Sexo)%>%
+  relocate(Provincia , .before = Sexo)
+
+unionpromedios <- full_join(x = promedioAntiguos, y = promedioNuevos)
+
+ggplot(data = unionpromedios, aes(x = Año, y = Provincia, group = Sexo, color = Sexo))+
+  geom_line()
 
 ```
