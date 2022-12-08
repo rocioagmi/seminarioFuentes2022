@@ -1,5 +1,5 @@
 ---
-title: "titulo"
+title: "VIH ambiente"
 author: "Rocío"
 date: "`r Sys.Date()`"
 output:
@@ -9,26 +9,54 @@ output:
     toc_float: true
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+# Titulo
 ## Introducción
+
 ### Objetivos
+- Intentar saber si existe relación entre el motivo del contagio y el sexo.
+- 
 ## Métodos
 ### Carga de paquetes
-```{r, warning=FALSE, message=FALSE}
+```{r, warning = FALSE, message = FALSE}
 library(readr)
 library (dplyr)
 ```
 ### Carga de datos
-```{r, warning=FALSE, message=FALSE}
+```{r, warning = FALSE, message = FALSE}
 registro_regional_de_sida <- read_delim("DATA/registro-regional-de-sida.csv",
                                         delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
 registro_nuevas_infecciones_por_vih <- read_delim("DATA/registro-nuevas-infecciones-por-vih.csv", 
                                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
+```
+### Arreglamos las tablas
+```{r, warning = FALSE, message = FALSE}
+registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = "Provincia residencia", Codigo_Riesgo = "Código Grupo de riesgo asignado", Grupo_Riesgo = "grupo riesgo", Año = "VIH")%>%
+  relocate(., "País de nacimiento (si no es España)", .before = "Estado clínico de la infección por VIH")%>%
+  select(., Provincia:Grupo_Riesgo)%>%
+  arrange(Año)
 
+registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año de diagnóstico", Edad = "Edad años", Codigo_Riesgo = "Código Grupo de riesgo", Grupo_Riesgo = "Grupo de riesgo", Provincia = "provincia")%>%
+  relocate(., "Edad meses", .after = Grupo_Riesgo)%>%
+  relocate(.,"País de origen", .after = Grupo_Riesgo)%>%
+  select(., Año:Grupo_Riesgo)%>%
+  arrange(Año)
+```
+### Unimos las tablas
+Antes de unir dos tablas primero tenemos que saber si es posible. Para ello obtendremos los valores de las variables cuantificables, a partir de las cuales nos serviremos para hacer la unión. Observando los resultados, los niveles son los mismos por lo que podemos continuar.
+```{r, warning = FALSE, message = FALSE}
+levels(factor(registroRegionalSida$Sexo))
+levels(factor(registroRegionalSida$Provincia))
+levels(factor(registroRegionalSida$Grupo_Riesgo))
+
+levels(factor(registroNuevasInfecciones$Sexo))
+levels(factor(registroNuevasInfecciones$Provincia))
+levels(factor(registroNuevasInfecciones$Grupo_Riesgo))
 ```
 
+```{r}
 
+```

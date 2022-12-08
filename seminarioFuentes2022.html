@@ -13,7 +13,7 @@
 
 <meta name="date" content="2022-12-08" />
 
-<title>titulo</title>
+<title>VIH ambiente</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1485,13 +1485,15 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore">titulo</h1>
+<h1 class="title toc-ignore">VIH ambiente</h1>
 <h4 class="author">Rocío</h4>
 <h4 class="date">2022-12-08</h4>
 
 </div>
 
 
+<div id="titulo" class="section level1">
+<h1>Titulo</h1>
 <div id="introducción" class="section level2">
 <h2>Introducción</h2>
 <div id="objetivos" class="section level3">
@@ -1508,25 +1510,58 @@ library (dplyr)</code></pre>
 <div id="carga-de-datos" class="section level3">
 <h3>Carga de datos</h3>
 <pre class="r"><code>registro_regional_de_sida &lt;- read_delim(&quot;DATA/registro-regional-de-sida.csv&quot;,
-                                        delim = &quot;;&quot;, escape_double = FALSE, trim_ws = TRUE)</code></pre>
-<pre><code>## Rows: 2702 Columns: 8
-## ── Column specification ────────────────────────────────────────────────────────
-## Delimiter: &quot;;&quot;
-## chr (4): Sexo, provincia, País de origen, Grupo de riesgo
-## dbl (4): Año de diagnóstico, Edad años, Edad meses, Código Grupo de riesgo
-## 
-## ℹ Use `spec()` to retrieve the full column specification for this data.
-## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-<pre class="r"><code>registro_nuevas_infecciones_por_vih &lt;- read_delim(&quot;DATA/registro-nuevas-infecciones-por-vih.csv&quot;, 
+                                        delim = &quot;;&quot;, escape_double = FALSE, trim_ws = TRUE)
+
+registro_nuevas_infecciones_por_vih &lt;- read_delim(&quot;DATA/registro-nuevas-infecciones-por-vih.csv&quot;, 
                                                   delim = &quot;;&quot;, escape_double = FALSE, trim_ws = TRUE)</code></pre>
-<pre><code>## Rows: 1435 Columns: 10
-## ── Column specification ────────────────────────────────────────────────────────
-## Delimiter: &quot;;&quot;
-## chr (7): Provincia residencia, País de nacimiento (si no es España), Sexo, g...
-## dbl (3): Edad, VIH, Código Grupo de riesgo asignado
-## 
-## ℹ Use `spec()` to retrieve the full column specification for this data.
-## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div id="arreglamos-las-tablas" class="section level3">
+<h3>Arreglamos las tablas</h3>
+<pre class="r"><code>registroNuevasInfecciones &lt;- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = &quot;Provincia residencia&quot;, Codigo_Riesgo = &quot;Código Grupo de riesgo asignado&quot;, Grupo_Riesgo = &quot;grupo riesgo&quot;, Año = &quot;VIH&quot;)%&gt;%
+  relocate(., &quot;País de nacimiento (si no es España)&quot;, .before = &quot;Estado clínico de la infección por VIH&quot;)%&gt;%
+  select(., Provincia:Grupo_Riesgo)%&gt;%
+  arrange(Año)
+
+registroRegionalSida &lt;- rename(.data = registro_regional_de_sida, Año = &quot;Año de diagnóstico&quot;, Edad = &quot;Edad años&quot;, Codigo_Riesgo = &quot;Código Grupo de riesgo&quot;, Grupo_Riesgo = &quot;Grupo de riesgo&quot;, Provincia = &quot;provincia&quot;)%&gt;%
+  relocate(., &quot;Edad meses&quot;, .after = Grupo_Riesgo)%&gt;%
+  relocate(.,&quot;País de origen&quot;, .after = Grupo_Riesgo)%&gt;%
+  select(., Año:Grupo_Riesgo)%&gt;%
+  arrange(Año)</code></pre>
+</div>
+<div id="unimos-las-tablas" class="section level3">
+<h3>Unimos las tablas</h3>
+<p>Antes de unir dos tablas primero tenemos que saber si es posible.
+Para ello obtendremos los valores de las variables cuantificables, a
+partir de las cuales nos serviremos para hacer la unión.</p>
+<pre class="r"><code>levels(factor(registroRegionalSida$Sexo))</code></pre>
+<pre><code>## [1] &quot;H&quot; &quot;M&quot;</code></pre>
+<pre class="r"><code>levels(factor(registroRegionalSida$Provincia))</code></pre>
+<pre><code>## [1] &quot;Avila&quot;      &quot;Burgos&quot;     &quot;León&quot;       &quot;Palencia&quot;   &quot;Salamanca&quot; 
+## [6] &quot;Segovia&quot;    &quot;Soria&quot;      &quot;Valladolid&quot; &quot;Zamora&quot;</code></pre>
+<pre class="r"><code>levels(factor(registroRegionalSida$Grupo_Riesgo))</code></pre>
+<pre><code>## [1] &quot;Grupo de riesgo desconocido&quot;                              
+## [2] &quot;Hijo de madre a riesgo&quot;                                   
+## [3] &quot;Personas que se inyectan drogas&quot;                          
+## [4] &quot;Personas que se inyectan drogas / Varones homo/bisexuales&quot;
+## [5] &quot;Receptores de hemoderivados&quot;                              
+## [6] &quot;Receptores de transfusión&quot;                                
+## [7] &quot;Relaciones Heterosexuales&quot;                                
+## [8] &quot;Varones homosexuales / bisexuales&quot;</code></pre>
+<pre class="r"><code>levels(factor(registroNuevasInfecciones$Sexo))</code></pre>
+<pre><code>## [1] &quot;H&quot; &quot;M&quot;</code></pre>
+<pre class="r"><code>levels(factor(registroNuevasInfecciones$Provincia))</code></pre>
+<pre><code>## [1] &quot;AVILA&quot;      &quot;BURGOS&quot;     &quot;LEON&quot;       &quot;PALENCIA&quot;   &quot;SALAMANCA&quot; 
+## [6] &quot;SEGOVIA&quot;    &quot;SORIA&quot;      &quot;VALLADOLID&quot; &quot;ZAMORA&quot;</code></pre>
+<pre class="r"><code>levels(factor(registroNuevasInfecciones$Grupo_Riesgo))</code></pre>
+<pre><code>## [1] &quot;Grupo de riesgo desconocido&quot;                              
+## [2] &quot;Hijo de madre a riesgo&quot;                                   
+## [3] &quot;Personas que se inyectan drogas&quot;                          
+## [4] &quot;Personas que se inyectan drogas / Varones homo/bisexuales&quot;
+## [5] &quot;Receptor trasfusiones&quot;                                    
+## [6] &quot;Relaciones Heterosexuales&quot;                                
+## [7] &quot;Varones homosexuales / bisexuales&quot;</code></pre>
+<p>Con esto vemos que sí que es posible la unión.</p>
+</div>
 </div>
 </div>
 
