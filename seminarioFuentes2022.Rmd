@@ -25,6 +25,9 @@ library (dplyr)
 ```{r}
 registro_regional_de_sida <- read_delim("DATA/registro-regional-de-sida.csv",
                                         delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+registro_nuevas_infecciones_por_vih <- read_delim("DATA/registro-nuevas-infecciones-por-vih.csv", 
+                                                  delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 
 
