@@ -111,6 +111,7 @@ unionpromedios <- full_join(x = promedioAntiguos, y = promedioNuevos)
 unionpromedios
 
 ```
+
 ```{r}
 ggplot(data = unionpromedios, aes(x = Sexo, y = Año, group = Grupo_Riesgo, color = Grupo_Riesgo))+
  geom_line()
