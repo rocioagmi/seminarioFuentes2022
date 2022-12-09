@@ -51,6 +51,9 @@ registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-in
                                         "VIH" = readr::col_integer()),
                                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
+poblacionCyL <- read_delim("INPUT/DATA/04001.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+summary(poblacionCyL)
 ```
 
 ### Exploración de los datos
@@ -70,9 +73,20 @@ registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año d
 
 ```
 
+```{r}
+poblacionCyL <- rename(.data = poblacionCyL, Provincia = "Provincias", Edad = "Edad (3 grupos de edad)")%>%
+ # mutate(Provincia = factor(Provincia, levels = c("09 Burgos", "24 León", "05 Ávila", "49 Zamora", "37 Salamanca", "40 Segovia", "47 Valladolid", "34 #Palencia", "42 Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))%>%
+  dplyr::filter(., Sexo != "Ambos sexos", Edad != "TOTAL EDADES", Provincia %in% c("09 Burgos", "24 León", "05 Ávila", "49 Zamora", "37 Salamanca", "40 Segovia", "47 Valladolid", "34 Palencia", "42 Soria"))%>%
+  select(., Provincia, Sexo, Edad, Año, Total)
+
+```
+
 Antes pasar a unir las tablas tenemos que saber si es posible. Para ello obtendremos los niveles de las variables cuantificables de ambas. Observando los resultados, podemos ver que los niveles de variables de interés de ambas tablas coinciden, por lo que podemos continuar.
 
 ```{r, warning = FALSE, message = FALSE}
+
+poblacionCyL
+
 levels(factor(registroRegionalSida$Sexo))
 levels(factor(registroRegionalSida$Provincia))
 levels(factor(registroRegionalSida$Grupo_Riesgo))
