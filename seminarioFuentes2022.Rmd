@@ -21,12 +21,12 @@ El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema i
 ### Objetivos
 
 - Investigar si existe relación entre la causa de contagio y el año.
-- 
+- Conocer si el tamaño de la población afecta a la propagación del virus.
 
 ## Métodos
 ### Carga de paquetes
 
-Para llevar a cabo la investigación se ha hecho uso de algunos paquetes necesarios para leer los datos, modificarlos, unirlos y poder plasmarlos de forma visual a modo de gráficas.
+Para llevar a cabo la investigación se ha hecho uso de algunos paquetes necesarios para leer, modificar, unir y plasmar los datos de forma visual a modo de tablas y gráficos.
 
 ```{r, warning = FALSE, message = FALSE}
 library(readr)
@@ -37,7 +37,8 @@ library(tidyverse)
 
 ### Carga de datos
 
-Los datos que he utilizado provienen de la sección de datos abiertos página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html) y los he encontrado en formato CSV.
+Los datos que he utilizado estaban contenidos en 3 tablas, dos de ellas "Registro_regional_de_sida" y "Registro_nuevas_infecciones_por_vih" provienen de la sección de datos abiertos página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html). La tabla "poblacionCyL" pertenece a la página web de datos abiertos del gobierno de España, a la que podéis acceder desde [aquí](https://datos.gob.es/es/catalogo).
+Todos ellos han sido descargados en formato CSV.
 
 ```{r, warning = FALSE, message = FALSE}
 registro_regional_de_sida <- read_delim("INPUT/DATA/registro-regional-de-sida.csv", col_types = cols(
@@ -51,10 +52,11 @@ registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-in
                                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
 poblacionCyL <- read_delim("INPUT/DATA/04001.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
 ```
 
 ### Exploración de los datos
-Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente y seleccionamos los datos que realmente son de nuestro interés.
+Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente y seleccionamos los datos que son de nuestro interés.
 
 ```{r, warning = FALSE, message = FALSE}
 registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = "Provincia residencia", Codigo_Riesgo = "Código Grupo de riesgo asignado", Grupo_Riesgo = "grupo riesgo", Año = "VIH")%>%
@@ -67,6 +69,12 @@ registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año d
   dplyr::filter(Año < 2009)%>%
   select(., Año:Grupo_Riesgo)%>%
   mutate(Provincia = factor(Provincia, levels = c("Burgos", "León", "Ávila", "Zamora", "Salamanca", "Segovia", "Valladolid", "Palencia", "Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))
+
+poblacion <- rename(.data = poblacionCyL, Provincia = "Provincias", Edad = "Edad (3 grupos de edad)")%>%
+ mutate(Provincia = factor(Provincia, levels = c("09 Burgos", "24 León", "05 Ávila", "49 Zamora", "37 Salamanca", "40 Segovia", "47 Valladolid", "34 Palencia", "42 Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))%>%
+  dplyr::filter(., Sexo != "Ambos sexos", Edad != "TOTAL EDADES", Provincia %in% c("09 Burgos", "24 León", "05 Ávila", "49 Zamora", "37 Salamanca", "40 Segovia", "47 Valladolid", "34 Palencia", "42 Soria"))%>%
+  select(., Provincia, Sexo, Edad, Año, Total)#%>%
+
 ```
 
 Antes pasar a unir las tablas tenemos que saber si es posible. Para ello obtendremos los niveles de las variables cuantificables de ambas. Observando los resultados, podemos ver que los niveles de variables de interés de ambas tablas coinciden, por lo que podemos continuar.
