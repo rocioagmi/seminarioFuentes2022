@@ -51,10 +51,21 @@ registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-in
                                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 ```{r}
-lirary(remotes)
-
+library(remotes)
+# install_github("ropenspain/climaemet")
 library(climaemet)
+# aemet_api_key("eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYW0xMDEwQGFsdS51YnUuZXMiLCJqdGkiOiI3ZDQyYjFlNS02ZjMwLTRhNGUtODM0Ny1hZTI5ODU3YzUwYzgiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTY3MDYwODI1MywidXNlcklkIjoiN2Q0MmIxZTUtNmYzMC00YTRlLTgzNDctYWUyOTg1N2M1MGM4Iiwicm9sZSI6IiJ9.N3jVd2A9en72Xh22QTWpTJ9omGlVcl-xcmfuyh5UQ1w", install = TRUE)
+```
 
+```{r}
+stations <- aemet_stations()
+
+knitr::kable(head(stations))
+
+data_observation <- aemet_last_obs("all")
+data_observation
+
+summary(data_observation)
 ```
 
 ### Exploración de los datos
