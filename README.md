@@ -1,4 +1,4 @@
-# seminarioFuentes2022
+# seminarioFuentes2022 VIH y el Ambiente
 Repositorio creado para la asignatura Fuentes de Datos Biomédicas y Web Semántica, del grado de Ingeniería de la Salud, Universidad de Burgos.
 
 ## Objetivos
