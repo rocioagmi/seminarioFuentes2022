@@ -45,11 +45,10 @@ mujeres %>%
 
 # View(hombres)
 
-# View(poblacion)
 #poblacion <- rename(.data = poblacionCyL, Provincia = "Provincias", Edad = "Edad (3 grupos de edad)")%>%
-#  filter(., Sexo != "Ambos sexos", Provincia %in% c("05 Ávila", "09 Burgos", "León", "Zamora", "Salamanca", "Segovia", "Valladolid", "Palencia", "Soria"))%>%
-#  select(., Provincia, Sexo, Edad, Año, Total)%>%
-#  arrange(Provincia)
+#  mutate(Provincia = factor(Provincia, levels = c("09 Burgos", "24 León", "05 Ávila", "49 Zamora", "37 Salamanca", "40 Segovia", "47 Valladolid", "34 Palencia", "42 Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))%>%
+#  dplyr::filter(., Sexo != "Ambos sexos", Edad != "TOTAL EDADES", Provincia %in% c("09 Burgos", "24 León", "05 Ávila", "49 Zamora", "37 Salamanca", "40 Segovia", "47 Valladolid", "34 Palencia", "42 Soria"))%>%
+#  select(., Provincia, Sexo, Edad, Año, Total)#%>%
 
 
 levels(factor(registroRegionalSida$Sexo))
