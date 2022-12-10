@@ -87,3 +87,6 @@ c2 <- registroNuevasInfecciones%>%
 
 
 
+# install_github("ropenspain/climaemet")
+library(climaemet)
+# aemet_api_key("eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYW0xMDEwQGFsdS51YnUuZXMiLCJqdGkiOiI3ZDQyYjFlNS02ZjMwLTRhNGUtODM0Ny1hZTI5ODU3YzUwYzgiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTY3MDYwODI1MywidXNlcklkIjoiN2Q0MmIxZTUtNmYzMC00YTRlLTgzNDctYWUyOTg1N2M1MGM4Iiwicm9sZSI6IiJ9.N3jVd2A9en72Xh22QTWpTJ9omGlVcl-xcmfuyh5UQ1w", install = TRUE)

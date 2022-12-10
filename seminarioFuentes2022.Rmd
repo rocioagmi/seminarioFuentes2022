@@ -21,7 +21,7 @@ El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema i
 ### Objetivos
 
 - Investigar si existe relación entre la causa de contagio y el año.
-- Conocer si el tamaño de la población afecta a la propagación del virus.
+- Conocer si el ambiente afecta a la propagación del virus.
 
 ## Métodos
 ### Carga de paquetes
@@ -29,12 +29,11 @@ El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema i
 Para llevar a cabo la investigación se ha hecho uso de algunos paquetes necesarios para leer, modificar, unir y plasmar los datos de forma visual a modo de tablas y gráficos.
 
 ```{r, warning = FALSE, message = FALSE}
+
 library(readr)
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
-library(remotes)
-library(climaemet)
 ```
 
 ### Carga de datos
@@ -46,6 +45,7 @@ Los datos que he utilizado estaban contenidos en 3 tablas, dos de ellas "Registr
 Esta tabla contiene el Sexo, Provincia, País, Edad, Código, Grupo de riesgo y Año de diagnóstico del VIH a personas entre 1985 y 2009.
 
 ```{r, warning = FALSE, message = FALSE}
+
 registro_regional_de_sida <- read_delim("INPUT/DATA/registro-regional-de-sida.csv", col_types = cols(
                                         "Año de diagnóstico" = readr::col_integer(),
                                         "Edad años" = readr::col_integer()),
@@ -59,6 +59,7 @@ summary(registro_regional_de_sida)
 En este conjunto de datos obtenemos unos datos bastante similares a los anteriores, Sexo, Provincia, País, Edad, Código y Grupo de riesgo y Año de diagnóstico entre otros, del VIH a personas entre 2009 y 2021.
 
 ```{r, warning = FALSE, message = FALSE}
+
 registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-infecciones-por-vih.csv",col_types = cols(
                                         Año = readr::col_integer(),
                                         "VIH" = readr::col_integer()),
@@ -66,25 +67,6 @@ registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-in
 
 summary(registro_nuevas_infecciones_por_vih)
 ```
-La última tabla la he obtenido a través de un repositorio de GitHub, creado para que la gente pueda usar libremente los datos abiertos de [AEMET](https://opendata.aemet.es/centrodedescargas/inicio) con una guía para instalar los paquetes de datos en Rstudio, que podéis visitar a través de [aquí](https://github.com/rOpenSpain/climaemet). 
-```{r, warning = FALSE, message = FALSE}
-# install_github("ropenspain/climaemet")
-
-# aemet_api_key("eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYW0xMDEwQGFsdS51YnUuZXMiLCJqdGkiOiI3ZDQyYjFlNS02ZjMwLTRhNGUtODM0Ny1hZTI5ODU3YzUwYzgiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTY3MDYwODI1MywidXNlcklkIjoiN2Q0MmIxZTUtNmYzMC00YTRlLTgzNDctYWUyOTg1N2M1MGM4Iiwicm9sZSI6IiJ9.N3jVd2A9en72Xh22QTWpTJ9omGlVcl-xcmfuyh5UQ1w", install = TRUE)
-```
-
-```{r, warning = FALSE, message = FALSE}
-stations <- aemet_stations()
-
-knitr::kable(head(stations))
-```
-
-```{r}
-data_daily <-
-  aemet_daily_clim(station, start = "1982", end = "2021")
-knitr::kable(head(data_daily))
-```
-
 ### Exploración de los datos
 Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente y seleccionamos los datos que son de nuestro interés.
 
