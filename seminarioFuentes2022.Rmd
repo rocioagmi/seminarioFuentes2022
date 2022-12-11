@@ -93,7 +93,18 @@ registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih,
 
 datatable(registroNuevasInfecciones)
 ```
-A partir de la información contenida en estas tablas podemos ver gráficamente cómo se diferencian los grupos de riesgo por provincia y por año.
+Tras explorar los datos y ver que se pueden unir las tablas sin generar ningun tipo de conflicto procedemos a ello.
+```{r}
+union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
+
+datatable(union)
+```
+
+## <span style = "color: LightCoral;"> Gráficos </span>
+
+A partir de la información contenida en estas tablas podemos representarla gráficamente para ver las posibles relaciones.
+
+En pirmer lugar graficaremos la relación, entre el número de casos por provincia y grupo de riesgo durante los años comprendidos entre el 82 y el 2009.
 ```{r, warning = FALSE, message = FALSE}
 casosAntiguos <- ggplot(data = registroRegionalSida, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
@@ -109,6 +120,7 @@ print(casosAntiguos)
 #dev.off()
 ```
 
+A continuación, graficaremos la relación, entre el número de casos por provincia y grupo de riesgo durante los años comprendidos entre el 2009 y el 2021.
 ```{r, warning = FALSE, message = FALSE}
 casosNuevos <- ggplot(data = registroNuevasInfecciones, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
@@ -124,59 +136,85 @@ print(casosNuevos)
 #plot(rnorm(20))
 #dev.off()
 ```
-Si unimos las dos tablas podemos obtener otro tipo de información.
+En la siguiente figura intentaremos graficar la relación entre la media de edades por sexo y año de diagnóstico de los afectados. Para observar si el sexo y edad del individuo tienen relación con el contagio.
 ```{r}
-union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
+edadesPorAñoSexo <- ggplot(data = union, aes(x = Año, y = Edad))+
+ geom_point(aes(colour = factor(Sexo)))+
+  theme_minimal()+
+  labs(x = "Año", y = "Edad", title = "Edad y año de diagnóstico por sexos", colour = "Sexo" )
 
-datatable(union)
+print(edadesPorAñoSexo)
+
+#jpeg("edadesPorAñoSexo.jpeg", quality = 75)
+#plot(rnorm(20))
+#dev.off()
 ```
 
 ```{r}
-ggplot(data = union, aes(x = Año, y = Edad))+
- geom_point(aes(colour = factor(Sexo)))
+unionpromediosEdad <- union%>%
+  group_by(Año, Sexo)%>%
+  summarise(across(c(Edad), ~ trunc(mean(.x, na.rm = TRUE))))
+datatable(unionpromediosEdad)
+
+promedioEdad <- ggplot(data = unionpromediosEdad, aes(x = Año, y = Edad, group = Sexo, color = Sexo))+
+ geom_line()+
+  theme_classic()+
+  labs(x = "Año", y = "Edad", title = "Media de Edad por sexo y año de diagnóstico", colour = "Sexo" )
+
+print(promedioEdad)
+
+#jpeg("promedioEdad.jpeg", quality = 75)
+#plot(rnorm(20))
+#dev.off()
 ```
 
 ```{r}
-casos_grafico <- union%>%
-  group_by(Provincia, Sexo)
+numeroCasos <- ggplot(data = union, aes(x = Provincia))+
+  geom_bar(aes(fill = Sexo))+
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(x = "Provincia", y = "Casos", title = "Casos detectados por provincia según el Sexo", colour = "Sexo" )
 
-ggplot(data = casos_grafico, aes(x = Provincia, y = Año))+
-  geom_point(aes(colour = factor(Sexo)))+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+print(numeroCasos)
+
+#jpeg("numeroCasos.jpeg", quality = 75)
+#plot(rnorm(20))
+#dev.off()
+
 ```
-
 ```{r}
-union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
-
-datatable(union)
-```
-
-```{r}
-promedioAntiguos <- registroRegionalSida%>%
+promedioAñosGrupoRiesgo <- union%>%
   group_by(Grupo_Riesgo, Sexo)%>%
-  summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))%>%
-  arrange(Año)
+  summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))
 
-datatable(promedioAntiguos)
+datatable(promedioAñosGrupoRiesgo)
+
+promedioAños <- ggplot(data = promedioAñosGrupoRiesgo, aes(x = Sexo, y = Año, group = Grupo_Riesgo, color = Grupo_Riesgo))+
+ geom_line()+
+  theme_classic()+
+  labs(x = "Sexo", y = "Año", title = "Media Años de diagnostico para Grupo de Riesgo y Sexo", colour = "Sexo" )
+
+print(promedioAños)
+
+jpeg("promedioAños.jpeg", quality = 75)
+plot(rnorm(20))
+dev.off()
 ```
 
 ```{r}
-promedioNuevos <- registroNuevasInfecciones%>%
-  group_by(Grupo_Riesgo, Sexo)%>%
-  summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))%>%
-  arrange(Año)
+casosCodigoRiesgo <- ggplot(data = union, aes(x = Sexo))+
+  geom_bar(aes(fill = Grupo_Riesgo))+
+  theme_minimal()+
+  labs(x = "Sexo", y = "Casos", title = "Casos detectados por Sexo según el Código de Riesgo", colour = "Código de Riesgo" )
 
-datatable(promedioNuevos) 
+print(casosCodigoRiesgo)
+
+jpeg("casosCodigoRiesgo.jpeg", quality = 75)
+plot(rnorm(20))
+dev.off()
 ```
 
-```{r}
-unionpromedios <- full_join(x = promedioAntiguos, y = promedioNuevos)
 
-datatable(unionpromedios)
-```
 
-```{r}
-ggplot(data = unionpromedios, aes(x = Sexo, y = Año, group = Grupo_Riesgo, color = Grupo_Riesgo))+
- geom_line()
+## <span style = "color: LightCoral;"> Referencias </span>
 
-```
