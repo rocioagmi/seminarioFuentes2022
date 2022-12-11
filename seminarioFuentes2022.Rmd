@@ -19,9 +19,9 @@ El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema i
 
 ![Imagen VIH.](INPUT/IMAGENES/VIH.jpg)
 
-### Objetivos
+### *Objetivos*
 
-- Investigar si existe relación entre la causa de contagio y el ambiente social.
+- Investigar si existe relación entre el contagio del virus y el ambiente social.
 
 ## <span style = "color: LightCoral;"> Métodos </span>
 
@@ -34,6 +34,7 @@ library(readr)
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
+library(DT)
 ```
 
 ### *Carga de datos*
@@ -43,20 +44,20 @@ Ambas han sido descargadas en formato CSV.
 
 #### <span style = "color: #f7bbbb;"> registro_regional_de_sida </span>
 
-Esta tabla contiene el Sexo, Provincia, País, Edad, Código, Grupo de riesgo y Año de diagnóstico del VIH a personas entre 1982 y 2009.
+Esta tabla contiene el Sexo, Provincia, País, Edad, Código, Grupo de riesgo y Año de diagnóstico del VIH a personas que residen en alguna de las provincias de Castilla y León entre 1982 y 2009.
 
 ```{r, warning = FALSE, message = FALSE}
 
 registro_regional_de_sida <- read_delim("INPUT/DATA/registro-regional-de-sida.csv",
                                   delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
-registro_regional_de_sida
+datatable(registro_regional_de_sida)
 ```
 
 
 #### <span style = "color: #f7bbbb;"> registro_nuevas_infecciones_por_vih </span>
 
-Se esta otra tabla obtenemos unos datos bastante similares a los anteriores, Sexo, Provincia, País, Edad, Código y Grupo de riesgo y Año de diagnóstico entre otros, del VIH a personas entre 2009 y 2021.
+Se esta otra tabla obtenemos unos datos bastante similares a los anteriores, Sexo, Provincia, País, Edad, Código y Grupo de riesgo y Año de diagnóstico entre otros, del VIH a personas que habitan en cualquiera de las provincias de Castilla y León entre 2009 y 2021.
 
 ```{r, warning = FALSE, message = FALSE}
 
@@ -65,12 +66,12 @@ registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-in
                                         "VIH" = readr::col_integer()),
                                         delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
-registro_nuevas_infecciones_por_vih
+datatable(registro_nuevas_infecciones_por_vih)
 ```
 
 ### *Exploración de los datos*
 
-Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente,  seleccionamos los datos que son de nuestro interés.
+Una vez cargadas, pasamos a transformar las tablas originales cambiando los nombres de las columnas por otros más correctos semánticamente, recolocamos, seleccionamos y filtramos los datos que sean de nuestro interés.
 
 ```{r, warning = FALSE, message = FALSE}
 registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año de diagnóstico", Edad = "Edad años", Codigo_Riesgo = "Código Grupo de riesgo", Grupo_Riesgo = "Grupo de riesgo", Provincia = "provincia")%>%
@@ -79,19 +80,31 @@ registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año d
   dplyr::filter(Año < 2009)%>%
   select(., Año:Grupo_Riesgo)%>%
   mutate(Provincia = factor(Provincia, levels = c("Burgos", "León", "Avila", "Zamora", "Salamanca", "Segovia", "Valladolid", "Palencia", "Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))
+
+
+datatable(registroRegionalSida)
 ```
 
 ```{r, warning = FALSE, message = FALSE}
 registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = "Provincia residencia", Codigo_Riesgo = "Código Grupo de riesgo asignado", Grupo_Riesgo = "grupo riesgo", Año = "VIH")%>%
   relocate(., "País de nacimiento (si no es España)", .before = "Estado clínico de la infección por VIH")%>%
   select(., Provincia:Grupo_Riesgo)%>%
-  mutate(Grupo_Riesgo = factor(Grupo_Riesgo, levels = c("Grupo de riesgo desconocido", "Hijo de madre a riesgo", "Personas que se inyectan drogas", "Personas que se inyectan drogas / Varones homo/bisexuales", "Receptores de hemoderivados", "Receptor transfusiones", "Relaciones Heterosexuales", "Varones homosexuales / bisexuales"), labels = c("Grupo de riesgo desconocido", "Hijo de madre a riesgo", "Personas que se inyectan drogas", "Personas que se inyectan drogas / Varones homo/bisexuales", "Receptores de hemoderivados", "Receptores de transfusión", "Relaciones Heterosexuales", "Varones homosexuales / bisexuales")))
+  mutate(Grupo_Riesgo = factor(Grupo_Riesgo, levels = c("Grupo de riesgo desconocido", "Hijo de madre a riesgo", "Personas que se inyectan drogas", "Personas que se inyectan drogas / Varones homo/bisexuales", "Receptores de hemoderivados", "Receptor trasfusiones", "Relaciones Heterosexuales", "Varones homosexuales / bisexuales"), labels = c("Grupo de riesgo desconocido", "Hijo de madre a riesgo", "Personas que se inyectan drogas", "Personas que se inyectan drogas / Varones homo/bisexuales", "Receptores de hemoderivados", "Receptores de transfusión", "Relaciones Heterosexuales", "Varones homosexuales / bisexuales")))
+
+datatable(registroNuevasInfecciones)
 ```
+Una vez hemos dispuesto las tablas, procedemos a unir los datos.
 
 ```{r}
-levels(factor(registroRegionalSida$Grupo_Riesgo))
-levels(factor(registroRegionalSida$Sexo))
-levels(factor(registroNuevasInfecciones$Grupo_Riesgo))
+union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
+
+datatable(union)
+```
+Con esta información podemos ver las provincia con proporción mayor de infectados y de entre ellos si prevalecen hombres o mujeres.
+
+```{r}
+ggplot(data = union, aes(x = Provincia, y = Año))+
+ geom_bar(stat = "identity", aes(fill = Sexo))
 ```
 
 ```{r}
@@ -101,20 +114,23 @@ promedioAntiguos <- registroRegionalSida%>%
   summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))%>%
   arrange(Año)
 
-promedioAntiguos
+datatable(promedioAntiguos)
+```
 
+```{r}
 promedioNuevos <- registroNuevasInfecciones%>%
   group_by(Grupo_Riesgo, Sexo)%>%
   dplyr::filter(n() > 1)%>%
   summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))%>%
   arrange(Año)
 
-promedioNuevos 
+datatable(promedioNuevos) 
+```
 
+```{r}
 unionpromedios <- full_join(x = promedioAntiguos, y = promedioNuevos)
 
-unionpromedios
-
+datatable(unionpromedios)
 ```
 
 ```{r}
