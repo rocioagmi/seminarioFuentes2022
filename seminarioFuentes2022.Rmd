@@ -93,10 +93,19 @@ registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih,
 
 datatable(registroNuevasInfecciones)
 ```
+A partir de la información contenida en estas tablas podemos ver gráficamente cómo se diferencian los grupos de riesgo por provincia y por año.
 ```{r}
-ggplot(data = registroRegionalSida, aes(x = Provincia)) +
+casosAntiguos <- ggplot(data = registroRegionalSida, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(x = "Provincias", y = "Casos", title = "Casos registrados entre 1982 y 2009", colour = "Grupo de Riesgo" )
+
+print(casosAntiguos)
+
+jpeg("casosAntiguos.jpeg", quality = 75)
+plot(rnorm(20))
+dev.off()
 ```
 
 ```{r}
@@ -105,11 +114,21 @@ ggplot(data = registroNuevasInfecciones, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+Si unimos las dos tablas podemos obtener otro tipo de información.
+```{r}
+union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
+
+datatable(union)
+```
+
+```{r}
+ggplot(data = union, aes(x = Año, y = Edad))+
+ geom_point(aes(colour = factor(Sexo)))
+```
 
 ```{r}
 casos_grafico <- union%>%
-  group_by(Provincia, Sexo)%>%
-  select(Año, Sexo, Provincia, Codigo_Riesgo)
+  group_by(Provincia, Sexo)
 
 ggplot(data = casos_grafico, aes(x = Provincia, y = Año))+
   geom_point(aes(colour = factor(Sexo)))+
