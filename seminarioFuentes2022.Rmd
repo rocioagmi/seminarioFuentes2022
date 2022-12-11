@@ -93,24 +93,38 @@ registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih,
 
 datatable(registroNuevasInfecciones)
 ```
-Una vez hemos dispuesto las tablas, procedemos a unir los datos.
+```{r}
+ggplot(data = registroRegionalSida, aes(x = Provincia)) +
+  geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+
+ggplot(data = registroNuevasInfecciones, aes(x = Provincia)) +
+  geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+casos_grafico <- union%>%
+  group_by(Provincia, Sexo)%>%
+  select(Año, Sexo, Provincia, Codigo_Riesgo)
+
+ggplot(data = casos_grafico, aes(x = Provincia, y = Año))+
+  geom_point(aes(colour = factor(Sexo)))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
 
 ```{r}
 union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
 
 datatable(union)
 ```
-Con esta información podemos ver las provincia con proporción mayor de infectados y de entre ellos si prevalecen hombres o mujeres.
-
-```{r}
-ggplot(data = union, aes(x = Provincia, y = Año))+
- geom_bar(stat = "identity", aes(fill = Sexo))
-```
 
 ```{r}
 promedioAntiguos <- registroRegionalSida%>%
   group_by(Grupo_Riesgo, Sexo)%>%
-  dplyr::filter(n() > 1)%>%
   summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))%>%
   arrange(Año)
 
@@ -120,7 +134,6 @@ datatable(promedioAntiguos)
 ```{r}
 promedioNuevos <- registroNuevasInfecciones%>%
   group_by(Grupo_Riesgo, Sexo)%>%
-  dplyr::filter(n() > 1)%>%
   summarise(across(c(Año), ~ trunc(mean(.x, na.rm = TRUE))))%>%
   arrange(Año)
 
