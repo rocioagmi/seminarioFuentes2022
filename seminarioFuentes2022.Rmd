@@ -1,5 +1,5 @@
 ---
-title: "VIH y el ambiente"
+title: <FONT COLOR = "#ED6953" > **VIH y la SOCIEDAD** </FONT>
 author: "Rocío Águeda"
 date: "`r Sys.Date()`"
 output:
@@ -13,23 +13,23 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introducción
+## <span style = "color: LightCoral;"> Introducción </span>
 
 El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema inmunitario del cuerpo, setransmite a través de la sangre y actualmente no tiene cura, únicamente se puede controlar con una adecuada atención médica.
 
+![VIH](INPUT/IMAGENES/VIH.jpg)
 
 ### Objetivos
 
-- Investigar si existe relación entre la causa de contagio y el año.
-- Conocer si el ambiente afecta a la propagación del virus.
+- Investigar si existe relación entre la causa de contagio y el ambiente social.
 
-## Métodos
+## <span style = "color: LightCoral;"> Métodos </span>
+
 ### Carga de paquetes
 
 Para llevar a cabo la investigación se ha hecho uso de algunos paquetes necesarios para leer, modificar, unir y plasmar los datos de forma visual a modo de tablas y gráficos.
 
 ```{r, warning = FALSE, message = FALSE}
-
 library(readr)
 library(dplyr)
 library(ggplot2)
@@ -38,7 +38,7 @@ library(tidyverse)
 
 ### Carga de datos
 
-Los datos que he utilizado estaban contenidos en 3 tablas, dos de ellas "Registro_regional_de_sida" y "Registro_nuevas_infecciones_por_vih" provienen de la sección de datos abiertos página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html).
+Los datos que he utilizado estaban contenidos en 2 tablas, "Registro_regional_de_sida" y "Registro_nuevas_infecciones_por_vih". Provienen de la sección de datos abiertos de la página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html).
 
 #### registro_regional_de_sida
 
@@ -87,8 +87,6 @@ registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año d
 Antes pasar a unir las tablas tenemos que saber si es posible. Para ello obtendremos los niveles de las variables cuantificables de ambas. Observando los resultados, podemos ver que los niveles de variables de interés de ambas tablas coinciden, por lo que podemos continuar.
 
 ```{r, warning = FALSE, message = FALSE}
-
-poblacionCyL
 
 levels(factor(registroRegionalSida$Sexo))
 levels(factor(registroRegionalSida$Provincia))
