@@ -94,6 +94,7 @@ registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih,
 datatable(registroNuevasInfecciones)
 ```
 Tras explorar los datos y ver que se pueden unir las tablas sin generar ningun tipo de conflicto procedemos a ello.
+
 ```{r}
 union <- full_join(x = registroRegionalSida, y = registroNuevasInfecciones)
 
@@ -104,7 +105,8 @@ datatable(union)
 
 A partir de la información contenida en estas tablas podemos representarla gráficamente para ver las posibles relaciones.
 
-En pirmer lugar graficaremos la relación, entre el número de casos por provincia y grupo de riesgo durante los años comprendidos entre el 82 y el 2009.
+En pirmer lugar graficaremos la relación (si es que existe), entre el número de casos por provincia y grupo de riesgo durante los años comprendidos entre el 82 y el 2009.
+
 ```{r, warning = FALSE, message = FALSE}
 casosAntiguos <- ggplot(data = registroRegionalSida, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
@@ -120,7 +122,8 @@ print(casosAntiguos)
 #dev.off()
 ```
 
-A continuación, graficaremos la relación, entre el número de casos por provincia y grupo de riesgo durante los años comprendidos entre el 2009 y el 2021.
+A continuación, graficaremos la relación (si es que existe), entre el número de casos por provincia y grupo de riesgo durante los años comprendidos entre el 2009 y el 2021.
+
 ```{r, warning = FALSE, message = FALSE}
 casosNuevos <- ggplot(data = registroNuevasInfecciones, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
@@ -136,7 +139,9 @@ print(casosNuevos)
 #plot(rnorm(20))
 #dev.off()
 ```
-En la siguiente figura intentaremos graficar la relación entre la media de edades por sexo y año de diagnóstico de los afectados. Para observar si el sexo y edad del individuo tienen relación con el contagio.
+
+En la siguiente figura intentaremos comprobar si existe relación entre la edad por sexo y año de diagnóstico de los afectados. Y así comprobar si estas infieren en la trnasmisión del virus.
+
 ```{r}
 edadesPorAñoSexo <- ggplot(data = union, aes(x = Año, y = Edad))+
  geom_point(aes(colour = factor(Sexo)))+
@@ -149,6 +154,9 @@ print(edadesPorAñoSexo)
 #plot(rnorm(20))
 #dev.off()
 ```
+
+Visualizando el gráfico anterior podemos hacernos una idea de cual es la media de la edad por año pero no parece haber una relación.
+Para poder ver más claramente los datos, construimos otro parecido solo que esta vez será la media de edad de individuos registrados por año de cada sexo.
 
 ```{r}
 unionpromediosEdad <- union%>%
@@ -167,6 +175,10 @@ print(promedioEdad)
 #plot(rnorm(20))
 #dev.off()
 ```
+Tras observar las gráficas no parece existir relación entre esrtas variables y el VIH, tienendo en cuenta, que podemos aplicar estas conclusiones unicamente a las provincias de Castilla y León.
+
+
+A continuación hacemos el recuento de los sexos de los casos que tenemos registrados, quedando una clara constancia de que hay un mayor número de hombres con VIH que mujeres, pero esta relación nos pide que miremos la relación entre el grupo de riesgo y el sexo.
 
 ```{r}
 numeroCasos <- ggplot(data = union, aes(x = Provincia))+
@@ -182,6 +194,8 @@ print(numeroCasos)
 #dev.off()
 
 ```
+En esta primera imagen observaremos la media de años de diagnóstico de los pacientes para cada sexo y grupo de riesgo.
+
 ```{r}
 promedioAñosGrupoRiesgo <- union%>%
   group_by(Grupo_Riesgo, Sexo)%>%
@@ -200,6 +214,7 @@ jpeg("promedioAños.jpeg", quality = 75)
 plot(rnorm(20))
 dev.off()
 ```
+Como el gráfico anterior puede ser confuso y poco visual a pesar de que nos aporta algo de información, he pasado los datos a un gráfico de barras que cuenta los casos cada Grupo de Riesgo por Sexo.
 
 ```{r}
 casosCodigoRiesgo <- ggplot(data = union, aes(x = Sexo))+
@@ -214,7 +229,18 @@ plot(rnorm(20))
 dev.off()
 ```
 
+## <span style = "color: LightCoral;"> Conclusión </span>
 
+En resumen, despúes de observar todos los datos, creo que existe una relación clara entre las causas de contagio de los pacientes registrados y el año en el que les fue diagnosticada la enfermedad.
+
+Por otro lado no creo que podamos decir que el sexo sea un factor determinante para contraer esta enfermedad aunque haya una mayor proporción de hombres que la padezcan, ya que esto puede estar sujeto a muchos otros factores que no estemos tenindo en cuenta. Y ocurre lo mismo con la edad, la media de edad de personas a las que le detectan esta enfermedad es entre 25 y 40 años, pero al final no opino que sea una relación clara, este caso creo que obtenemos este resultado por otros factores como la media de edad a la que se mantienen relaciones sexuales con personas desconocidas, se usan drogas, ...
+
+Claramente hay que tener en cuenta que al ser una enfermedad con unos síntomas muy similares a los de una gripe o incluso nulos, hay muchas personas que pueden tener la enfermedad sin saberlo y arrastrarla y por lo tanto transmitirla. Además, los datos recogidos abarcan una comunidad autónoma de un país concreto, estando esta enfermedad presente en infinidad de lugares en el mundo.
 
 ## <span style = "color: LightCoral;"> Referencias </span>
 
+https://ggplot2.tidyverse.org/reference/geom_bar.html
+
+https://bookdown.org/yihui/rmarkdown/html-document.html
+
+https://github.com/ajcanepa/PRACTICA_TEMA5
