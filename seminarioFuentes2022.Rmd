@@ -94,7 +94,7 @@ registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih,
 datatable(registroNuevasInfecciones)
 ```
 A partir de la información contenida en estas tablas podemos ver gráficamente cómo se diferencian los grupos de riesgo por provincia y por año.
-```{r}
+```{r, warning = FALSE, message = FALSE}
 casosAntiguos <- ggplot(data = registroRegionalSida, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
   theme_classic()+
@@ -102,17 +102,27 @@ casosAntiguos <- ggplot(data = registroRegionalSida, aes(x = Provincia)) +
   labs(x = "Provincias", y = "Casos", title = "Casos registrados entre 1982 y 2009", colour = "Grupo de Riesgo" )
 
 print(casosAntiguos)
-
-jpeg("casosAntiguos.jpeg", quality = 75)
-plot(rnorm(20))
-dev.off()
+```
+```{r, warning = FALSE, message = FALSE}
+#jpeg("casosAntiguos.jpeg", quality = 75)
+#plot(rnorm(20))
+#dev.off()
 ```
 
-```{r}
-
-ggplot(data = registroNuevasInfecciones, aes(x = Provincia)) +
+```{r, warning = FALSE, message = FALSE}
+casosNuevos <- ggplot(data = registroNuevasInfecciones, aes(x = Provincia)) +
   geom_bar(aes(fill = Grupo_Riesgo), position = "dodge")+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(x = "Provincias", y = "Casos", title = "Casos registrados entre 2009 y 2021", colour = "Grupo de Riesgo" )
+
+print(casosNuevos)
+```
+
+```{r, warning = FALSE, message = FALSE}
+#jpeg("casosNuevos.jpeg", quality = 75)
+#plot(rnorm(20))
+#dev.off()
 ```
 Si unimos las dos tablas podemos obtener otro tipo de información.
 ```{r}
