@@ -15,9 +15,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## <span style = "color: LightCoral;"> Introducción </span>
 
-El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema inmunitario del cuerpo, setransmite a través de la sangre y actualmente no tiene cura, únicamente se puede controlar con una adecuada atención médica.
+El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema inmunitario del cuerpo, se transmite a través de la sangre y actualmente no tiene cura, únicamente se puede controlar con una adecuada atención médica.
 
-![VIH](INPUT/IMAGENES/VIH.jpg)
+![Imagen VIH.](INPUT/IMAGENES/VIH.jpg)
 
 ### Objetivos
 
@@ -25,7 +25,7 @@ El VIH (virus de la inmunodeficiencia humana) es un virus que ataca el sistema i
 
 ## <span style = "color: LightCoral;"> Métodos </span>
 
-### Carga de paquetes
+### *Carga de paquetes*
 
 Para llevar a cabo la investigación se ha hecho uso de algunos paquetes necesarios para leer, modificar, unir y plasmar los datos de forma visual a modo de tablas y gráficos.
 
@@ -36,27 +36,27 @@ library(ggplot2)
 library(tidyverse)
 ```
 
-### Carga de datos
+### *Carga de datos*
 
-Los datos que he utilizado estaban contenidos en 2 tablas, "Registro_regional_de_sida" y "Registro_nuevas_infecciones_por_vih". Provienen de la sección de datos abiertos de la página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html).
+Los datos que he utilizado estaban contenidos en 2 tablas, "Registro_regional_de_sida" y "Registro_nuevas_infecciones_por_vih". Los obtuve a travésde la sección de datos abiertos de la página de la [Junta de Castilla y León](https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html). 
+Ambas han sido descargadas en formato CSV.
 
-#### registro_regional_de_sida
+#### <span style = "color: #f7bbbb;"> registro_regional_de_sida </span>
 
-Esta tabla contiene el Sexo, Provincia, País, Edad, Código, Grupo de riesgo y Año de diagnóstico del VIH a personas entre 1985 y 2009.
+Esta tabla contiene el Sexo, Provincia, País, Edad, Código, Grupo de riesgo y Año de diagnóstico del VIH a personas entre 1982 y 2009.
 
 ```{r, warning = FALSE, message = FALSE}
 
-registro_regional_de_sida <- read_delim("INPUT/DATA/registro-regional-de-sida.csv", col_types = cols(
-                                        "Año de diagnóstico" = readr::col_integer(),
-                                        "Edad años" = readr::col_integer()),
-                                        delim = ";", escape_double = FALSE, trim_ws = TRUE)
+registro_regional_de_sida <- read_delim("INPUT/DATA/registro-regional-de-sida.csv",
+                                  delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
-summary(registro_regional_de_sida)
+registro_regional_de_sida
 ```
 
-#### registro_nuevas_infecciones_por_vih
 
-En este conjunto de datos obtenemos unos datos bastante similares a los anteriores, Sexo, Provincia, País, Edad, Código y Grupo de riesgo y Año de diagnóstico entre otros, del VIH a personas entre 2009 y 2021.
+#### <span style = "color: #f7bbbb;"> registro_nuevas_infecciones_por_vih </span>
+
+Se esta otra tabla obtenemos unos datos bastante similares a los anteriores, Sexo, Provincia, País, Edad, Código y Grupo de riesgo y Año de diagnóstico entre otros, del VIH a personas entre 2009 y 2021.
 
 ```{r, warning = FALSE, message = FALSE}
 
@@ -65,35 +65,32 @@ registro_nuevas_infecciones_por_vih <- read_delim("INPUT/DATA/registro-nuevas-in
                                         "VIH" = readr::col_integer()),
                                         delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
-summary(registro_nuevas_infecciones_por_vih)
+registro_nuevas_infecciones_por_vih
 ```
-### Exploración de los datos
-Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente y seleccionamos los datos que son de nuestro interés.
+
+### *Exploración de los datos*
+
+Una vez cargadas, pasamos a cambiar los nombres que venían en las columnas por otros más correctos semánticamente,  seleccionamos los datos que son de nuestro interés.
 
 ```{r, warning = FALSE, message = FALSE}
-registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = "Provincia residencia", Codigo_Riesgo = "Código Grupo de riesgo asignado", Grupo_Riesgo = "grupo riesgo", Año = "VIH")%>%
-  relocate(., "País de nacimiento (si no es España)", .before = "Estado clínico de la infección por VIH")%>%
-  select(., Provincia:Grupo_Riesgo)
-
 registroRegionalSida <- rename(.data = registro_regional_de_sida, Año = "Año de diagnóstico", Edad = "Edad años", Codigo_Riesgo = "Código Grupo de riesgo", Grupo_Riesgo = "Grupo de riesgo", Provincia = "provincia")%>%
   relocate(., "Edad meses", .after = Grupo_Riesgo)%>%
   relocate(.,"País de origen", .after = Grupo_Riesgo)%>%
   dplyr::filter(Año < 2009)%>%
   select(., Año:Grupo_Riesgo)%>%
-  mutate(Provincia = factor(Provincia, levels = c("Burgos", "León", "Ávila", "Zamora", "Salamanca", "Segovia", "Valladolid", "Palencia", "Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))
-
+  mutate(Provincia = factor(Provincia, levels = c("Burgos", "León", "Avila", "Zamora", "Salamanca", "Segovia", "Valladolid", "Palencia", "Soria"), labels = c("BURGOS", "LEON", "AVILA", "ZAMORA", "SALAMANCA", "SEGOVIA", "VALLADOLID", "PALENCIA", "SORIA")))
 ```
 
-Antes pasar a unir las tablas tenemos que saber si es posible. Para ello obtendremos los niveles de las variables cuantificables de ambas. Observando los resultados, podemos ver que los niveles de variables de interés de ambas tablas coinciden, por lo que podemos continuar.
-
 ```{r, warning = FALSE, message = FALSE}
+registroNuevasInfecciones <- rename(.data = registro_nuevas_infecciones_por_vih, Provincia = "Provincia residencia", Codigo_Riesgo = "Código Grupo de riesgo asignado", Grupo_Riesgo = "grupo riesgo", Año = "VIH")%>%
+  relocate(., "País de nacimiento (si no es España)", .before = "Estado clínico de la infección por VIH")%>%
+  select(., Provincia:Grupo_Riesgo)%>%
+  mutate(Grupo_Riesgo = factor(Grupo_Riesgo, levels = c("Grupo de riesgo desconocido", "Hijo de madre a riesgo", "Personas que se inyectan drogas", "Personas que se inyectan drogas / Varones homo/bisexuales", "Receptores de hemoderivados", "Receptor transfusiones", "Relaciones Heterosexuales", "Varones homosexuales / bisexuales"), labels = c("Grupo de riesgo desconocido", "Hijo de madre a riesgo", "Personas que se inyectan drogas", "Personas que se inyectan drogas / Varones homo/bisexuales", "Receptores de hemoderivados", "Receptores de transfusión", "Relaciones Heterosexuales", "Varones homosexuales / bisexuales")))
+```
 
-levels(factor(registroRegionalSida$Sexo))
-levels(factor(registroRegionalSida$Provincia))
+```{r}
 levels(factor(registroRegionalSida$Grupo_Riesgo))
-
-levels(factor(registroNuevasInfecciones$Sexo))
-levels(factor(registroNuevasInfecciones$Provincia))
+levels(factor(registroRegionalSida$Sexo))
 levels(factor(registroNuevasInfecciones$Grupo_Riesgo))
 ```
 
